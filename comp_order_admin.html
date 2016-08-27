@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>订单管理</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="Public/base/base.css">
+    <link rel="stylesheet" type="text/css" href="Public/comp/css/common.css">
+    <link rel="stylesheet" type="text/css" href="Public/comp/css/page.css">
+</head>
+
+<body>
+    <div id="header">
+        <!--登录前-->
+        <div class="login-bar">
+            <div class="main-wrapper">
+                <p class="fl"><a href="#" class="welcome"><i class="iconfont home">&#xe600;</i>欢迎来到 OFweek Mall</a></p>
+                <p class="fr"><a href="#" class="mr15 login">登录</a><a href="#" class="exit">退出</a></p>
+            </div>
+        </div>
+        <!--登录前-->
+        <!--登录后-->
+        <div class="main-wrapper dn">
+            <p class="fl"><a href="#" class="welcome"><i class="iconfont home">&#xe600;</i>欢迎来到 OFweek Mall</a></p>
+            <p class="fr"><a href="#" class="mr15 login">商家名称aaa</a><a href="#" class="exit">退出</a></p>
+        </div>
+        <!--登录后-->
+        <div class="clearfix mt13 main-wrapper">
+            <p class="logo fl mr25"><img src="Public/comp/images/logo.png"></p>
+            <h1 class="fl"><a href="http://mall.ofweek.com" target="_blank">商家后台</a></h1>
+        </div>
+        <div id="nav" class="mt13">
+            <div class="main-wrapper">
+                <ul class="clearfix">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">我的店铺</a></li>
+                    <li><a href="#">订单管理</a></li>
+                    <li><a href="#">商品管理</a></li>
+                    <li><a href="#">物流管理</a></li>
+                    <li><a href="#">结算管理</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="content" class="main-wrapper" style="height: 1000px;">
+        <div class="position">
+            <a href="#">商家后台</a>&gt;<span>订单管理</span>
+        </div>
+        <div id="side">
+            <ul class="leftnav pt10">
+                <li><a href="#" class="active">订单管理</a></li>
+                <li><a href="#">订单退款管理</a></li>
+                <li><a href="#">订单提醒消息</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <div class="page-title">
+                <h2>订单管理</h2>
+            </div>
+            <div class="order-search clearfix">
+                <form action="" method="post">
+                    <dl class="fl">
+                        <dt class="fl">订单编号:</dt>
+                        <dd class="fl"><input type="text" name=""></dd>
+                        <dt class="fl">订单日期：</dt>
+                        <dd class="fl"><input type="text" name="">到<input type="text"></dd>
+                        <dt class="fl">订单金额：</dt>
+                        <dd class="fl"><input type="text" name="">到<input type="text"></dd>
+                    </dl>
+                    <p class="fr"><input type="submit" value="搜索"></p>
+                </form>    
+            </div>
+            <ul class="tabs clearfix mt10">
+                <li class="active">全部</li>
+                <li>待议价</li>
+                <li>待用户付款</li>
+                <li>待发货</li>
+                <li>已发货</li>
+                <li>退款中</li>
+                <li>交易成功</li>
+                <li>交易关闭</li>
+            </ul>
+            <div class="tabs-con">
+                <p class="all">
+                    <label>
+                        <input type="checkbox" name="checkAll" class="vm mr5">全选</label>
+                    <a href="#">取消订单</a>
+                </p>
+                <ul class="orderlist-hd clearfix">
+                    <li class="w346">订单详情</li>
+                    <li class="w110">单价</li>
+                    <li class="w79">数量</li>
+                    <li class="w144">实收款</li>
+                    <li class="w115">状态</li>
+                    <li class="w129">操作</li>
+                </ul>
+                <ul class="orderlist">
+                    <li class="clearfix">
+                       <div class="profile">
+                           <p class="user fl">
+                               用户名：AAA
+                               <i class="iconfont"></i>
+                           </p>
+                           <span class="time">2015-12-15</span>
+                           <span class="number">订单号：123123134</span>
+
+                       </div>
+                       <div class="detail w346 fl">
+                           <input type="checkbox" name="" class="fl">
+                           <p class="p-img fl">
+                               <a href="#"><img src="http://mall.ofweek.com/Thumbs/200/0160624/576ca70f94fe4.png" alt=""></a>
+                           </p>
+                           <div class="p-msg">
+                               <p class="p-name">
+                                    <a href="#" target="_blank">
+                                        商品名称商品信息手持水下摄像机商品名称商品信息手持水下摄像机
+                                    </a>
+                                </p>
+                               <p class="package">包装规格：20打/袋</p>
+                               <p class="trade-img"><a href="#" target="_blank">[交易快照]</a></p>
+                           </div>
+                       </div> 
+                       <div class="unit-price fl w110">￥118.00</div>
+                       <div class="quantity fl w79">1</div>
+                       <div class="collection fl w144">
+                           ￥118.00
+                           <p class="postage">含运费：￥0.00</p>
+                       </div>
+                       <div class="status fl w115">
+                           <span>待用户付款</span>
+                           <span>订单详情</span>
+                       </div>
+                       <div class="opera fl w129">
+                           <input type="button" value="修改价格">
+                       </div>
+                    </li>
+                </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+            
+        </div>
+    </div>
+    <!--footer-->
+    <div id="footer">
+        <div class="service-mall">
+            <span class="item1">全程担保  购物无忧<i></i></span>
+            <span class="item2">认证商品  正规渠道<i></i></span>
+            <span class="item3">行业专家  品质保证<i></i></span>
+            <span class="item4">高效解答  疑问速决</span>
+        </div>
+        <p class="footer-nav mt10 lh24">
+            <a href="/aboutus.html">关于我们</a><a href="/contactus.html" rel="nofollow">联系我们</a><a href="/terms.html" rel="nofollow">用户条款</a><a href="/privacy.html" rel="nofollow">隐私条款</a><a href="/mallsupplier.html" target="_blank">招募供应商</a>
+        </p>
+        <p class="copyright lh24">
+            <a href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow" class="mr50">
+            粤ICP备06087881号-1</a>
+            版权所有－OFweek Mall 网站所有图片、文字未经许可不得拷贝、复制。
+        </p>
+    </div>
+    </div>
+</body>
+
+</html>
