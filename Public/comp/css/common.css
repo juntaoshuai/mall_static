@@ -5,9 +5,11 @@
  * @date    2016-08-25 16:09:16
  * @version $Id$
  */
- body{font-family: simsun,Arial;font-size: 12px;background-color: #f3f3f3;}
+ body{font-family: simsun,Arial;font-size: 12px;background-color: #fff;}
  a{color:#666;}
  a:hover{color:#c00;}
+ .c0{color:#000;}
+.white-bg{background: #fff;}
  .mt13{margin-top: 13px;}
  .lh20{line-height: 20px;}
  .lh22{line-height: 22px;}
@@ -15,15 +17,18 @@
 
 @font-face {
   font-family: 'iconfont';
-  src: url('//at.alicdn.com/t/font_1472395092_013228.eot'); /* IE9*/
-  src: url('//at.alicdn.com/t/font_1472395092_013228.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('//at.alicdn.com/t/font_1472395092_013228.woff') format('woff'), /* chrome、firefox */
-  url('//at.alicdn.com/t/font_1472395092_013228.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url('//at.alicdn.com/t/font_1472395092_013228.svg#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('//at.alicdn.com/t/font_1472540867_5974205.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1472540867_5974205.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1472540867_5974205.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1472540867_5974205.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1472540867_5974205.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
+                    
+                    
+                    
                                       
 
-.iconfont{font-family:"iconfont";font-style:normal;}                     
+.iconfont{font-family:"iconfont";font-style:normal;vertical-align: middle;}                     
 
 
 
@@ -70,4 +75,4 @@
 .page-title h2{border-left: 2px solid #bf0008;font-family: microsoft Yahei;font-size: 20px;color:#000;padding-left: 7px;}
 
 /*btn*/
-
+.redbtn{width:93px;height: 36px;background-color: #c81623;font:bold 16px/36px microsoft Yahei;color:#fff;border:none;border-radius: 3px;outline:none;}

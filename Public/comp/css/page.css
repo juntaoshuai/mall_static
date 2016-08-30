@@ -55,3 +55,44 @@
 .status2{color:#005eae;}
 .status3{color:#bf0008;}
 
+/*首次登录*/
+.reglogin-wrap{background: #f3f3f3;margin-bottom: 60px;}
+
+.form label{display:block;margin:0 0 20px;vertical-align: top;line-height: 35px;}
+.form label.mb10{margin-bottom: 10px;}
+.form label .item-l,.form label .item-r{float: left;display: inline;}
+.form label .item-l{font-size: 14px;line-height: 35px;color: #313131;width:84px;text-align: right;margin-right:14px;}
+.form label .txt,.pulldown{width:365px;height:33px;line-height:33px\9;border:1px solid #ccc;background: #fff;font-size: 14px;color: #313131;text-indent:8px;outline: none;}
+.form label .txt{width:248px;float:left;font-family: simsun;}
+.item-r{color: #fff;}
+.item-r .zk{color: #ff1d1d;}
+.item-r .fptype span{margin:0 35px 0 9px;}
+.item-r .fptype input{vertical-align: middle;}
+/*first login*/
+.first-login{padding-bottom: 93px;padding-top:35px;}
+.first-login h2{font:bold 20px/32px microsoft Yahei;border-bottom:1px solid #bf0008;color:#bf0008;display: inline-block;}
+.first-login .login-tips{line-height: 12px;margin: 20px 0 29px;color:#797979;}
+
+.ml283{margin-left: 283px;}
+
+.form .form-hd{width:390px;text-align: center;}
+/*login*/
+.login{padding:99px 0 103px;}
+.login .find-pwd{width:250px;text-align: right;line-height: 30px;}
+.login .find-pwd a{color:#005eae;}
+.login .find-pwd a:hover{color:#c00;}
+/*pwd update success*/
+.pwd-success{padding:52px 0 93px;}
+.icon-success{font-size: 36px;color:#c81623;font-weight: normal;}
+.pwd-success .pwd-tips{height:36px;line-height: 36px;font-size: 14px;color:#c81623;font-weight: bold;}
+.pwd-success .form-hd{margin-bottom: 58px;}
+/*find pwd*/
+.find-pwd-wrap{border-top: 2px solid #bf0008;margin-top: 26px;}
+.find-pwd{width: 920px;margin:60px auto;border-top: 1px solid #acacac;padding-bottom: 176px;}
+.find-pwd .findpwd-hd{font:20px/36px microsoft Yahei;color:#000;margin: 32px 0 0 133px;}
+.find-pwd .form{margin-left: 220px;}
+.form label .txt118{width:118px;}
+.getcode{width:98px;height: 26px;border: 1px solid #ccc; background:#f7f7f7;background:-moz-linear-gradient(top, #fcfcfc, #ededed);
+    background:-webkit-linear-gradient(top, #fcfcfc, #ededed);
+    background:-ms-linear-gradient(top, #fcfcfc, #ededed);
+    background:linear-gradient(top, #fcfcfc, #ededed);outline: none;border-radius: 2px;font-size: 12px;color:#005eae;}
