@@ -52,26 +52,32 @@
         <div id="content" class="white-bg">
             <div class="main-wrapper">
                 <div class="reglogin-wrap login mt30">
-                    <form action="" method="post" class="form ml283" id="updatePwdForm">
-                        <label class="clearfix">
-                            <span class="item-l">用户名</span>
-                            <div class="item-r">
-                                <input type="text" class="txt" name="username">
+                    <form action="" method="post" class="form ml283" id="loginForm">
+                        <div class="clearfix form-item">
+                            <label>
+                                <span class="item-l">用户名</span>
+                                <div class="item-r">
+                                    <input type="text" class="txt" name="username">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="clearfix form-item mb10">
+                            <label>
+                                <span class="item-l">密 码</span>
+                                <div class="item-r">
+                                    <input type="password" class="txt" name="pwd">
+                                    <p class="find-pwd"><a href="comp_find_pwd.html">找回密码</a></p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="clearfix form-item">
+                            <div class="btn-box">
+                                <span class="item-l">&nbsp;</span>
+                                <div class="item-r">
+                                    <input type="submit" value="登录" class="redbtn" id="sub-btn">
+                                </div>
                             </div>
-                        </label>
-                        <label class="clearfix mb10">
-                            <span class="item-l">密 码</span>
-                            <div class="item-r">
-                                <input type="password" class="txt" name="pwd">
-                                <p class="find-pwd"><a href="comp_find_pwd.html">找回密码</a></p>
-                            </div>
-                        </label>
-                        <label class="clearfix">
-                            <span class="item-l">&nbsp;</span>
-                            <div class="item-r">
-                                <input type="submit" value="登录" class="redbtn" id="sub-btn">
-                            </div>
-                        </label>
+                        </div>
                     </form>
                 </div>
             </div>

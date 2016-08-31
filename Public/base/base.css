@@ -1,15 +1,22 @@
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0; padding:0;}
+html{height: 100%;}
 table{ border-collapse:collapse; border-spacing:0;}
+body{font-size: 12px;color: #666;font-family: Microsoft YaHei;}
 fieldset,img{border:0;}
 img{vertical-align:middle;}
 address,caption,cite,code,dfn,em,strong,th,var{ font-style:normal; font-weight:normal;}
 ol,ul{ list-style:none;}
-caption,th{ text-align:left;}
-h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal;}
-q:before,q:after{content:'';}
-abbr,acronym{border:0;}
+input{outline: none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+h1{font-size: 28px}
+h2{font-size: 24px;}
+h3{font-size: 18px;}
+h4{font-size: 16px;}
+h5{font-size: 14px;}
+h6{font-size: 12px;}
 a{text-decoration: none;}
 a:hover{text-decoration: underline;}
+.active{color: #c10000;}
 /*文字排版*/
 .f12{font-size:12px;}
 .f13{font-size:13px;}
@@ -26,16 +33,13 @@ a:hover{text-decoration: underline;}
 .tc{ text-align:center;}
 .tr{ text-align:right;}
 .bc{ margin-left:auto; margin-right:auto;}
-.fl{ float:left; display:inline;}
-.fr{ float:right; display:inline;}
-.cb{ clear:both;}
-.cr{clear:left;}
+.fl{ float:left;}
+.fr{ float:right;}
 .clearfix:after{ content:'.'; display:block; clear:both; visibility:hidden; height:0;}
 .clearfix{zoom:1;}
 .vm{vertical-align:middle;}
 .pr{ position:relative;}
 .pa{ position:absolute;}
-.abs-right{ position:absolute; right:0;}
 .zoom{zoom:1;}
 .hidden{ visibility:hidden;}
 .dn{display:none;}
@@ -84,6 +88,7 @@ a:hover{text-decoration: underline;}
 .mr40{margin-right:40px;}
 .mr45{margin-right:45px;}
 .mr50{margin-right:50px;}
+.mr100{margin-right: 100px;}
 .p10{padding:10px;}
 .p15{padding:15px;}
 .p30{padding:30px;}
