@@ -64,7 +64,7 @@
                 <div class="add-product-box">
                     <form action="" method="post" class="form" id="addProductForm">
                         <div class="goods-category section clearfix">
-                            <h3 class="mb15">请选择商品分类</h3>
+                            <h3 class="mb15 sec-title">请选择商品分类</h3>
                             <div class="clearfix">
                                 <div class="pulldown-box fl mr10">
                                     <div class="pulldown">
@@ -118,12 +118,12 @@
                             <p class="current-category fl mt20">您当前的选择是：仪器仪表/温度检测/记录仪</p>
                         </div>
                         <div class="section mt30">
-                            <h3 class="mb22">商品详细信息</h3>
+                            <h3 class="mb22 sec-title">商品详细信息</h3>
                             <div class="clearfix form-item">
                                 <label>
                                     <span class="item-l"><i class="xin">*</i>商品标题：</span>
                                     <div class="item-r">
-                                        <input type="text" class="txt txt438" name="username">
+                                        <input type="text" class="txt txt438" name="username" placeholder="最多50字">
                                     </div>
                                 </label>
                             </div>
@@ -131,7 +131,7 @@
                                 <label>
                                     <span class="item-l"><i class="xin">*</i>商品名称：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt txt98" name="pwd">
+                                        <input type="text" class="txt txt98" name="pwd" placeholder="最多20字">
                                     </div>
                                 </label>
                             </div>
@@ -139,7 +139,7 @@
                                 <label>
                                     <span class="item-l">商品型号：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt txt98" name="model">
+                                        <input type="text" class="txt txt98" name="model">
                                     </div>
                                 </label>
                             </div>
@@ -147,7 +147,7 @@
                                 <label>
                                     <span class="item-l"><i class="xin">*</i>商品品牌：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt txt98" name="brand">
+                                        <input type="text" class="txt txt98" name="brand" placeholder="最多20字">
                                     </div>
                                 </label>
                             </div>
@@ -155,7 +155,7 @@
                                 <label>
                                     <span class="item-l"><i class="xin">*</i>产地：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt txt98" name="place">
+                                        <input type="text" class="txt txt98" name="place">
                                     </div>
                                 </label>
                             </div>
@@ -163,7 +163,7 @@
                                 <label>
                                     <span class="item-l"><i class="xin">*</i>起订数：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt txt98" name="ordernum">
+                                        <input type="text" class="txt txt98" name="ordernum">
                                     </div>
                                 </label>
                             </div>
@@ -171,7 +171,17 @@
                                 <label>
                                     <span class="item-l"><i class="xin">*</i>商品类型：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt txt98" name="category">
+                                        <div class="pulldown-box w98 fl">
+                                            <div class="pulldown">
+                                                <span class="select-txt" id="ttype">全新</span>
+                                                <i class="iconfont">&#xe604;</i>
+                                            </div>
+                                            <ul class="pulldown-list">
+                                                <li data-id="1">全新</li>
+                                                <li data-id="2">二手</li>
+                                            </ul>
+                                            <input type="hidden" name="ticketType" value="1">
+                                        </div>
                                     </div>
                                 </label>
                             </div>
@@ -179,18 +189,66 @@
                                 <label>
                                     <span class="item-l"><i class="xin">*</i>质保服务：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt txt438" name="quality_service">
+                                        <input type="text" class="txt txt448" name="quality_service" placeholder="最多50字">
                                     </div>
                                 </label>
                             </div>
                         </div>
                         <div class="section">
-                            <h3 class="mb20">商品规格</h3>
+                            <h3 class="mb20 sec-title">商品规格</h3>
                             <div class="clearfix form-item">
                                 <label>
                                     <span class="item-l">新增规格：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt" name="pwd">
+                                        <div class="standard-box mb20 clearfix">
+                                            <input type="text" class="txt txt198 mr10" name="standard" placeholder="如：一件20个（单一规格不可填）">
+                                            <div class="pulldown-box w118 fl mr10">
+                                                <div class="pulldown">
+                                                    <span class="select-txt" id="ttype">一口价</span>
+                                                    <i class="iconfont">&#xe604;</i>
+                                                </div>
+                                                <ul class="pulldown-list">
+                                                    <li data-id="1">一口价</li>
+                                                    <li data-id="2">待议价</li>
+                                                </ul>
+                                                <input type="hidden" name="ticketType" value="1">
+                                            </div>
+                                            <input type="text" class="txt txt98 mr10" name="价格" placeholder="价格">
+                                            <input type="text" class="txt txt88" name="库存" placeholder="库存">
+                                        </div>
+                                        <input type="button" value="+" class="add-standard" id="add-standard">
+                                        <!--已添加规格-->
+                                        <div class="added-standard mt20">
+                                            <h3>已添加规格</h3>
+                                            <div class="opear-all lh24 mb10">
+                                                <label>
+                                                    <input type="checkbox" name="checkAll" class="vm">
+                                                    <span>全选</span>
+                                                </label>
+                                                <a href="javascript:;">删除</a>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <input type="checkbox" name="chk">
+                                                    <span>20个/袋</span>
+                                                    <span>￥10.00</span>
+                                                    <span>库存100</span>
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="chk">
+                                                    <span>20个/袋</span>
+                                                    <span>￥10.00</span>
+                                                    <span>库存100</span>
+                                                </li>
+                                                <li>
+                                                    <input type="checkbox" name="chk">
+                                                    <span>20个/袋</span>
+                                                    <span>￥10.00</span>
+                                                    <span>库存100</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--已添加规格-->
                                     </div>
                                 </label>
                             </div>
@@ -200,7 +258,19 @@
                                 <label>
                                     <span class="item-l">商品单位：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt" name="pwd">
+                                        <div class="pulldown-box w98 fl">
+                                            <div class="pulldown">
+                                                <span class="select-txt" id="ttype">个</span>
+                                                <i class="iconfont">&#xe604;</i>
+                                            </div>
+                                            <ul class="pulldown-list">
+                                                <li data-id="1">个</li>
+                                                <li data-id="2">件</li>
+                                                <li data-id="3">打</li>
+                                                <li data-id="4">袋</li>
+                                            </ul>
+                                            <input type="hidden" name="ticketType" value="1">
+                                        </div>
                                     </div>
                                 </label>
                             </div>
@@ -208,7 +278,7 @@
                                 <label>
                                     <span class="item-l">商品重量：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt" name="pwd">
+                                        <input type="text" class="txt" name="pwd">
                                     </div>
                                 </label>
                             </div>
@@ -216,7 +286,7 @@
                                 <label>
                                     <span class="item-l">商品宽度：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt" name="pwd">
+                                        <input type="text" class="txt" name="pwd">
                                     </div>
                                 </label>
                             </div>
@@ -224,40 +294,50 @@
                                 <label>
                                     <span class="item-l">商品高度：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt" name="pwd">
+                                        <input type="text" class="txt" name="pwd">
                                     </div>
                                 </label>
                             </div>
                         </div>
                         <div class="section">
-                            <h3 class="mb30">* 商品照片</h3>
+                            <h3 class="mb30 sec-title"><i class="xin">*</i>商品照片</h3>
                             <div class="clearfix form-item">
                                 <label>
                                     <span class="item-l">&nbsp;</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt" name="pwd">
+                                        <ul class="goods-img-list clearfix">
+                                            <li><img src="Public/comp/images/goods.png" alt=""></li>
+                                            <li><img src="Public/comp/images/goods.png" alt=""></li>
+                                            <li><img src="Public/comp/images/goods.png" alt=""></li>
+                                            <li><img src="Public/comp/images/goods.png" alt=""></li>
+                                            <li><img src="Public/comp/images/goods.png" alt=""></li>
+                                            <li><img src="Public/comp/images/goods.png" alt=""></li>
+                                        </ul>
+                                        <p class="upload-goods">
+                                            <input type="file" name=""> 300x300px
+                                        </p>
                                     </div>
                                 </label>
                             </div>
                         </div>
                         <div class="section">
-                            <h3 class="mb30">* 商品介绍</h3>
+                            <h3 class="mb30 sec-title"><i class="xin">*</i>商品介绍</h3>
                             <div class="clearfix form-item">
                                 <label>
                                     <span class="item-l">&nbsp;</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt" name="pwd">
+                                        <input type="text" class="txt" name="introduce">
                                     </div>
                                 </label>
                             </div>
                         </div>
                         <div class="section">
-                            <h3 class="mb20">物流信息</h3>
+                            <h3 class="mb20 sec-title">物流信息</h3>
                             <div class="clearfix form-item">
                                 <label>
                                     <span class="item-l"><i class="xin">*</i>发 货 地：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt" name="pwd">
+                                        <input type="text" class="txt txt168" name="pwd">
                                     </div>
                                 </label>
                             </div>
@@ -265,7 +345,18 @@
                                 <label>
                                     <span class="item-l"><i class="xin">*</i>发货时间：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt" name="pwd">
+                                        <input type="text" class="txt txt168" name="sendtime">
+                                        <p class="delivery-time fl ml20">
+                                            <a href="#">72小时</a>
+                                            <a href="#">7天</a>
+                                            <a href="#">14天</a>
+                                            <a href="#">1个月</a>
+                                            <a href="#">3个月</a>
+                                            <a href="#">6个月</a>
+                                        </p>
+                                        <p class="delivery-tips">
+                                            如实设定商品的发货时间，不仅可避免发货咨询和纠纷，还能促进成交！
+                                        </p>
                                     </div>
                                 </label>
                             </div>
@@ -273,15 +364,27 @@
                                 <label>
                                     <span class="item-l"><i class="xin">*</i>商品包装：</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt" name="pwd">
+                                        <input type="text" class="txt txt398" name="package">
                                     </div>
                                 </label>
                             </div>
+                        </div>
+                        <div class="section">
                             <div class="clearfix form-item">
                                 <label>
                                     <span class="item-l"><i class="xin">*</i>开始时间</span>
                                     <div class="item-r">
-                                        <input type="password" class="txt" name="pwd">
+                                        <p class="starttime-con">
+                                            <label>
+                                                <input type="radio" name="starttime">上架
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="starttime">移入仓库
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="starttime">下架
+                                            </label>
+                                        </p>
                                     </div>
                                 </label>
                             </div>
@@ -307,6 +410,8 @@
             粤ICP备06087881号-1</a> 版权所有－OFweek Mall 网站所有图片、文字未经许可不得拷贝、复制。
         </p>
     </div>
+    <script type="text/javascript" src="Public/base/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="Public/comp/js/main.js"></script>
 </body>
 
 </html>

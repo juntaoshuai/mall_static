@@ -294,12 +294,12 @@ i {
 
 .form .form-item {
     margin: 0 0 20px;
+    line-height: 35px;
 }
 
 .form label,
 .form .btn-box {
     vertical-align: top;
-    line-height: 35px;
 }
 
 .form .form-item.mb10 {
@@ -314,23 +314,24 @@ i {
     display: inline;
 }
 
-.form .item-l .xin {
+.form .xin {
     color: #f00;
     font-size: 12px;
     margin-right: 6px;
+    font-weight: normal;
+
 }
 
 .form label .item-l,
 .form .btn-box .item-l {
     font-size: 14px;
-    line-height: 35px;
     color: #313131;
     width: 84px;
     text-align: right;
     margin-right: 14px;
 }
 
-.form label .txt {
+.form .txt {
 	width: 248px;
     height: 33px;
     float: left;
@@ -344,40 +345,49 @@ i {
     outline: none;
 }
 
-.item-r {
-    color: #fff;
+.form .txt88 {
+    width: 88px;
+}
+.form .txt98 {
+    width: 98px;
+}
+.form .txt118 {
+    width: 118px;
+}
+.form .txt168 {
+    width: 168px;
+}
+.form .txt198 {
+    width: 198px;
+}
+.form .txt398 {
+    width: 398px;
+}
+.form .txt438 {
+    width: 438px;
+}
+.form .txt448 {
+    width: 448px;
 }
 
-.item-r .zk {
-    color: #ff1d1d;
-}
-
-.item-r .fptype span {
-    margin: 0 35px 0 9px;
-}
-
-.item-r .fptype input {
-    vertical-align: middle;
-}
 
 
 /*下拉列表*/
 
 .pulldown-box {
     position: relative;
-    width: 230px;
-    height: 30px;
+    width: 228px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ccc;
     z-index: 1;
 }
 
 .pulldown-box .pulldown {
-    width: 228px;
-    height: 28px;
-    line-height: 28px;
+    height: 100%; 
     cursor: pointer;
-    border: 1px solid #ccc;
     background: #fff;
-    font-size: 14px;
+    font-size: 12px;
     color: #333;
     text-indent: 8px;
     outline: none;
@@ -398,21 +408,38 @@ i {
 .pulldown-box .pulldown-list {
     position: absolute;
     width: 228px;
-    background: #111;
-    border: 1px solid #29c2dc;
-    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    left:-1px;
     top: 27px;
     z-index: 1;
     display: none;
 }
 
 .pulldown-box .pulldown-list li {
-    font-size: 14px;
-    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
     padding: 0 7px;
     cursor: pointer;
 }
 
 .pulldown-box .pulldown-list li:hover {
-    background: #29c2dc;
+    background: #ccc;
+}
+
+.pulldown-box.w98{
+    width: 98px;
+}
+.pulldown-box.w118{
+    width:118px;
+}
+.pulldown-box.w98{
+    width: 98px;
+}
+.pulldown-box.w98{
+    width: 98px;
+}
+.pulldown-box.w98{
+    width: 98px;
 }

@@ -313,9 +313,7 @@
     margin-left: 220px;
 }
 
-.form label .txt118 {
-    width: 118px;
-}
+
 
 .getcode {
     width: 98px;
@@ -352,10 +350,10 @@
 
 .add-product-box .section {
     border-bottom: 1px solid #dbdada;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-top: 30px;
 }
-.add-product-box .form h3{
+.add-product-box .form .sec-title{
 	font-family: simsun;
 	font-size:12px;
 	line-height: 12px;
@@ -363,12 +361,97 @@
 	font-weight: bold;
 }
 
-.form label .txt98{
-    width: 98px;
-}
-.form label .txt438{
-    width:438px;
-}
+
 .add-product-box .form label .txt{
     height: 28px;
+    line-height:28px\9;
+    font-size: 12px;
+}
+.add-product-box .form .form-item{line-height:30px;}
+.add-product-box .form label .item-l{
+    color:#666;
+    font-size: 12px;
+}
+
+.add-product-box .add-standard{
+    width:200px;
+    height:30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color:#939393;
+    font-weight: bold;
+    background: #fff;
+    display: block;
+    font-family:arial;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor:pointer;
+
+}
+ .added-standard{
+    width: 378px;
+    background: #f2f2f2;
+    border:1px solid #ccc;
+    color:#333;
+    padding:8px 0 20px 20px;
+}
+.added-standard h3{
+    line-height: 36px;
+    font-size:12px;
+}
+.added-standard a{
+    color:#333;
+}
+.added-standard a:hover{
+    color:#c00;
+}
+.added-standard li input,.opear-all input{
+    margin-right: 4px;
+    vertical-align: middle;
+}
+.added-standard li{
+    margin-bottom: 10px;
+}
+.added-standard li span{
+    width: 98px;
+    height: 28px;
+    line-height: 28px;
+    border:1px solid #ccc;
+    text-align: center;
+    background: #fff;
+    margin-right: 4px;
+    display: inline-block;
+}
+
+.opear-all label{margin-right: 19px;}
+.goods-img-list li{float: left;}
+.goods-img-list li img{
+   width: 100px;
+   height: 100px;
+}
+
+.upload-goods{
+    color: #7f7f7f;
+}
+
+.delivery-time a{
+  color:#3399ff;
+  text-decoration: underline;
+  margin-right: 18px;
+}
+.delivery-time a:hover{
+    color:#c00;
+}
+
+.delivery-tips{
+    clear: both;
+    line-height: 32px;
+    color: #7f7f7f;
+}
+
+.starttime-con label{
+    display: block;
+}
+.starttime-con label input{
+    vertical-align: middle;
 }
