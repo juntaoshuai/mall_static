@@ -288,6 +288,9 @@ i {
     border-radius: 3px;
     outline: none;
 }
+.redbtn.w150{
+    width: 150px;
+}
 
 
 /*表单*/
@@ -295,9 +298,9 @@ i {
 .form .form-item {
     margin: 0 0 20px;
     line-height: 35px;
+    vertical-align: top;
 }
 
-.form label,
 .form .btn-box {
     vertical-align: top;
 }
@@ -306,8 +309,8 @@ i {
     margin-bottom: 10px;
 }
 
-.form label .item-l,
-.form label .item-r,
+.form  .item-l,
+.form .item-r,
 .form .btn-box .item-l,
 .form .btn-box .item-r {
     float: left;
@@ -322,7 +325,7 @@ i {
 
 }
 
-.form label .item-l,
+.form .item-l,
 .form .btn-box .item-l {
     font-size: 14px;
     color: #313131;

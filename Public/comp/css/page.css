@@ -353,6 +353,9 @@
     padding-bottom: 10px;
     margin-top: 30px;
 }
+.add-product-box .goods-category{
+    padding-bottom: 30px;
+}
 .add-product-box .form .sec-title{
 	font-family: simsun;
 	font-size:12px;
@@ -362,13 +365,13 @@
 }
 
 
-.add-product-box .form label .txt{
+.add-product-box .form  .txt{
     height: 28px;
     line-height:28px\9;
     font-size: 12px;
 }
 .add-product-box .form .form-item{line-height:30px;}
-.add-product-box .form label .item-l{
+.add-product-box .form .item-l{
     color:#666;
     font-size: 12px;
 }
@@ -450,8 +453,16 @@
 }
 
 .starttime-con label{
-    display: block;
+    display: block
 }
 .starttime-con label input{
     vertical-align: middle;
+    margin-right: 10px;
+}
+.starttime-con label span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.add-product-box .sub-btn{
+    margin:62px 0 89px;
 }

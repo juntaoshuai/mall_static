@@ -8,7 +8,11 @@ $(function() {
     //下拉列表整体操作
     var pulldown = function() {
         $(".pulldown").click(function() {
-            $(this).next().show();
+            $(this).next().show().css({
+                'width':$(this).width(),
+                'top':$(this).height()
+        });
+
             return false;
         });
 
