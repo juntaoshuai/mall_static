@@ -210,3 +210,27 @@ function link_submit(form,msg){
 		document.getElementById(form).submit();
 	}
 }
+
+function tabs(tab,tabs,event){
+   
+}
+
+/*
+ tab选项卡
+ tabs:选项卡标题
+ tabscon:选项卡内容
+ tabs tabscon同级,tabs不限于ul>li结构
+*/
+ jQuery.tabs=function(tabs,tabcon,options){
+ 	var defaults={
+ 		event:"click"
+ 	};
+ 	var setting=$.extend({},defaults,options);
+
+ 	$(tabcon).first().show();
+   $(tabs).children().on(setting.event,function(){
+   	  var index=$(this).index();
+   	  $(this).addClass("active").siblings().removeClass("active");
+   	  $(tabcon).hide().eq(index).show();
+   })
+}
