@@ -466,3 +466,44 @@
 .add-product-box .sub-btn{
     margin:62px 0 89px;
 }
+
+.editor-tabs{
+    width:638px;
+    height: 34px;
+    background: #f8f8f8;
+    border: 1px solid #ececec;
+    border-top:none;
+    padding-left: 10px;
+}
+.editor-tabs li{
+    width: 76px;
+    height: 25px;
+    line-height: 25px;
+    color: #000;
+    text-align: center;
+    float: left;
+    margin-top: 8px;
+    cursor: pointer;
+    position: relative;
+}
+.editor-tabs li .hot{
+    width:21px;
+    height: 11px;
+    background: url(../images/hot.gif) 0 0 no-repeat;
+    position: absolute;
+    right: 5px;
+    top:6px;
+}
+.editor-tabs li.active{
+background: #fff;
+border:1px solid #ececec;
+border-bottom: 1px solid #fff;
+}
+.editor-tabs-con{
+    margin-top: 10px;
+    display:none;
+}
+.editor-tabs-con textarea{
+    width:650px;
+    height: 406px;
+}

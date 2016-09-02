@@ -41,7 +41,9 @@ $(function() {
     	$standard.insertBefore($(this));
     });
 
-
+  //商品管理编辑器切换
+  $.tabs(".editor-tabs",'.editor-tabs-con');
+   
 
 
 
