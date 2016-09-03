@@ -491,8 +491,8 @@
     height: 11px;
     background: url(../images/hot.gif) 0 0 no-repeat;
     position: absolute;
-    right: 5px;
-    top:6px;
+    left: 65px;
+    top:-2px;
 }
 .editor-tabs li.active{
 background: #fff;
