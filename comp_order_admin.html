@@ -45,8 +45,9 @@
             </div>
         </div>
     </div>
-    <div id="content" class="main-wrapper" style="height: 1000px;">
-        <div class="position">
+    <div id="content" class="main-wrapper">
+        <div class="positio
+        n">
             <a href="#">商家后台</a>&gt;<span>订单管理</span>
         </div>
         <div id="side">
@@ -60,29 +61,46 @@
             <div class="page-title">
                 <h2>订单管理</h2>
             </div>
-            <div class="order-search clearfix">
-                <form action="" method="post">
-                    <dl class="fl">
-                        <dt class="fl">订单编号:</dt>
-                        <dd class="fl">
-                            <input type="text" name="">
-                        </dd>
-                        <dt class="fl">订单日期：</dt>
-                        <dd class="fl">
-                            <input type="text" name="">到
-                            <input type="text">
-                        </dd>
-                        <dt class="fl">订单金额：</dt>
-                        <dd class="fl">
-                            <input type="text" name="">到
-                            <input type="text">
-                        </dd>
-                    </dl>
-                    <p class="fr">
-                        <input type="submit" value="搜索">
-                    </p>
-                </form>
-            </div>
+            <div class="main-search clearfix mt20">
+                    <form action="" method="post" class="form">
+                        <dl class="fl">
+                        <dt class="fl">
+                            <div class="pulldown-box w118 fl">
+                                    <div class="pulldown">
+                                        <span class="select-txt" id="ttype">订单编号</span>
+                                        <i class="iconfont">&#xe604;</i>
+                                    </div>
+                                    <ul class="pulldown-list">
+                                        <li data-id="1">商品类目1</li>
+                                        <li data-id="2">商品类目2</li>
+                                        <li data-id="4">商品类目3</li>
+                                        <li data-id="5">商品类目4</li>
+                                    </ul>
+                                    <input type="hidden" name="good_cate" value="1">
+                                </div>
+                        </dt>
+                            <dd class="fl">
+                                
+                                <input type="text" name="" class="txt txt128 ml10">
+                            </dd>
+                            <dt class="fl">订单日期：</dt>
+                            <dd class="fl">
+                                <input type="text" class="txt txt118 mr8" name="">到
+                                <input type="text" class="txt txt118" name="">
+
+                            </dd>
+                            
+                            <dt class="fl">订单金额：</dt>
+                            <dd class="fl">
+                                <input type="text" name="" class="txt txt38 mr8">到
+                                <input type="text" class="txt txt38">
+                            </dd>
+                        </dl>
+                        <p class="fl">
+                            <input type="submit" value="搜索" class="grey-btn">
+                        </p>
+                    </form>
+                </div>
             <ul class="tabs clearfix mt10">
                 <li class="active">全部</li>
                 <li>待议价</li>
@@ -93,8 +111,8 @@
                 <li>交易成功</li>
                 <li>交易关闭</li>
             </ul>
-            <div class="tabs-con">
-                <p class="all">
+            <div class="tabs-con" style="display:block;">
+                <p class="operate-all">
                     <label>
                         <input type="checkbox" name="checkAll" class="vm mr5">全选</label>
                     <a href="#">取消订单</a>

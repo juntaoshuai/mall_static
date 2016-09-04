@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>在售商品管理</title>
+    <title>下架商品管理</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <link rel="stylesheet" type="text/css" href="Public/base/base.css">
@@ -41,7 +41,6 @@
                     <li><a href="#">商品管理</a></li>
                     <li><a href="#">物流管理</a></li>
                     <li><a href="#">结算管理</a></li>
-                                                       
                 </ul>
             </div>
         </div>
@@ -49,21 +48,21 @@
     <div id="content" class="grey-bg">
         <div class="main-wrapper clearfix">
             <div class="position">
-                <a href="#">商家后台</a>&gt;<span>商品管理</span>&gt;<span>在售商品管理</span>
+                <a href="#">商家后台</a>&gt;<span>商品管理 </span>&gt;<span>下架商品管理</span>
             </div>
             <div id="side">
                 <ul class="leftnav pt10">
                     <li><a href="#">添加商品</a></li>
-                    <li><a href="#"  class="active">在售商品管理</a></li>
+                    <li><a href="#">在售商品管理</a></li>
                     <li><a href="#">商品审核</a></li>
                     <li><a href="#">仓库商品管理</a></li>
-                    <li><a href="#">下架商品管理</a></li>
+                    <li><a href="#" class="active">下架商品管理</a></li>
                     <li><a href="#">商品回收站</a></li>
                 </ul>
             </div>
             <div id="main">
                 <div class="page-title">
-                    <h2>在售商品</h2>
+                    <h2>下架商品管理</h2>
                 </div>
                 <div class="main-search clearfix mt20">
                     <form action="" method="post" class="form">
@@ -114,9 +113,9 @@
                         <input type="checkbox" name="checkAll" class="vm mr5">全选
                     </label>
                     <a href="#" class="mr24">删除</a>
-                    <a href="#">下架</a>
+                    <a href="#">上架</a>
                 </p>
-                <div class="table-list sales-goods-list">
+                <div class="table-list shelf-goods-list">
                     <table width="100%" class="table-list-hd">
                         <tr>
                             <td class="col1" width="38%">商品名称</td>
@@ -144,15 +143,15 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td class="col2">￥118.00</td>
-                                <td class="col3">100</td>
+                                <td class="col2">￥118.00 <a href="comp_goods_admin.html" class="update-link"><i class="iconfont pen">&#xe603;</i></a></td>
+                                <td class="col3">100 <a href="comp_goods_admin.html" class="update-link"><i class="iconfont pen">&#xe603;</i></a></td>
                                 <td class="col4">100</td>
                                 <td class="col5">
+                                    <a href="#" class="reshelf">重新上架</a>
                                     <input type="button" value="编辑商品" class="grey-btn">
-                                    <a href="#" class="db c70 lh32">下架</a>
+                                    <a href="#" class="db c70 lh32">删除</a>
                                 </td>
-                        </table>
-                        <table>
+                        </table><table>
                             <tr>
                                 <td class="col1">
                                     <div class="detail-wrap">
@@ -169,15 +168,15 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td class="col2">￥118.00</td>
-                                <td class="col3">100</td>
+                                <td class="col2">￥118.00 <a href="comp_goods_admin.html" class="update-link"><i class="iconfont pen">&#xe603;</i></a></td>
+                                <td class="col3">100 <a href="comp_goods_admin.html" class="update-link"><i class="iconfont pen">&#xe603;</i></a></td>
                                 <td class="col4">100</td>
                                 <td class="col5">
+                                    <a href="#" class="reshelf">重新上架</a>
                                     <input type="button" value="编辑商品" class="grey-btn">
-                                    <a href="#" class="db c70 lh32">下架</a>
+                                    <a href="#" class="db c70 lh32">删除</a>
                                 </td>
-                        </table>
-                        <table>
+                        </table><table>
                             <tr>
                                 <td class="col1">
                                     <div class="detail-wrap">
@@ -194,15 +193,15 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td class="col2">￥118.00</td>
-                                <td class="col3">100</td>
+                                <td class="col2">￥118.00 <a href="comp_goods_admin.html" class="update-link"><i class="iconfont pen">&#xe603;</i></a></td>
+                                <td class="col3">100 <a href="comp_goods_admin.html" class="update-link"><i class="iconfont pen">&#xe603;</i></a></td>
                                 <td class="col4">100</td>
                                 <td class="col5">
+                                    <a href="#" class="reshelf">重新上架</a>
                                     <input type="button" value="编辑商品" class="grey-btn">
-                                    <a href="#" class="db c70 lh32">下架</a>
+                                    <a href="#" class="db c70 lh32">删除</a>
                                 </td>
-                        </table>
-                        <table>
+                        </table><table>
                             <tr>
                                 <td class="col1">
                                     <div class="detail-wrap">
@@ -219,15 +218,15 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td class="col2">￥118.00</td>
-                                <td class="col3">100</td>
+                                <td class="col2">￥118.00 <a href="comp_goods_admin.html" class="update-link"><i class="iconfont pen">&#xe603;</i></a></td>
+                                <td class="col3">100 <a href="comp_goods_admin.html" class="update-link"><i class="iconfont pen">&#xe603;</i></a></td>
                                 <td class="col4">100</td>
                                 <td class="col5">
+                                    <a href="#" class="reshelf">重新上架</a>
                                     <input type="button" value="编辑商品" class="grey-btn">
-                                    <a href="#" class="db c70 lh32">下架</a>
+                                    <a href="#" class="db c70 lh32">删除</a>
                                 </td>
-                        </table>
-                        <table>
+                        </table><table>
                             <tr>
                                 <td class="col1">
                                     <div class="detail-wrap">
@@ -244,12 +243,13 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td class="col2">￥118.00</td>
-                                <td class="col3">100</td>
+                                <td class="col2">￥118.00 <a href="comp_goods_admin.html" class="update-link"><i class="iconfont pen">&#xe603;</i></a></td>
+                                <td class="col3">100 <a href="comp_goods_admin.html" class="update-link"><i class="iconfont pen">&#xe603;</i></a></td>
                                 <td class="col4">100</td>
                                 <td class="col5">
+                                    <a href="#" class="reshelf">重新上架</a>
                                     <input type="button" value="编辑商品" class="grey-btn">
-                                    <a href="#" class="db c70 lh32">下架</a>
+                                    <a href="#" class="db c70 lh32">删除</a>
                                 </td>
                         </table>
                     </div>
@@ -259,7 +259,7 @@
                                 <input type="checkbox" name="checkAll" class="vm mr5">全选
                             </label>
                             <a href="#" class="mr24">删除</a>
-                            <a href="#">下架</a>
+                            <a href="#">上架</a>
                         </p>
                         <div class="page fr">
                             <p class="page-link fl">

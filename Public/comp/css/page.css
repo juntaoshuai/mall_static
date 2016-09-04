@@ -35,16 +35,8 @@
     font-weight: bold;
     border-color: #bf0008;
 }
+.tabs-con{display: none;}
 
-.tabs-con .all {
-    line-height: 42px;
-    color: #707070;
-    padding-left: 20px;
-}
-
-.tabs-con .all label {
-    margin-right: 36px;
-}
 
 .orderlist-hd {
     background-color: #fff4e8;
@@ -135,11 +127,11 @@
     margin-bottom: 2px;
 }
 
-.orderlist .p-name a {
+.p-name a {
     color: #005eae;
 }
 
-.orderlist .p-name a:hover,
+.p-name a:hover,
 .orderlist .trade-img a:hover {
     color: #c00;
 }
@@ -507,3 +499,11 @@ border-bottom: 1px solid #fff;
     width:650px;
     height: 406px;
 }
+
+/*下架商品管理*/
+.pen{font-size: 17px;}
+.update-link{position: relative;top:-3px;}
+.update-link:hover{text-decoration: none;}
+.reshelf{display:block;color: #bf0008;line-height: 26px;}
+/*商品回收站*/
+.recyc-input .grey-btn{color: #707070;}
