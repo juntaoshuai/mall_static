@@ -52,12 +52,12 @@
             </div>
             <div id="side">
                 <ul class="leftnav pt10">
-                    <li class="active"><a href="#" class="active">添加商品</a></li>
-                    <li><a href="#">在售商品管理</a></li>
-                    <li><a href="#">商品审核</a></li>
-                    <li><a href="#">仓库商品管理</a></li>
-                    <li><a href="#">下架商品管理</a></li>
-                    <li><a href="#">商品回收站</a></li>
+                    <li><a href="comp_goods_admin.html" class="active">添加商品</a></li>
+                    <li><a href="comp_sales_goods_admin.html">在售商品管理</a></li>
+                    <li><a href="comp_goods_check_admin.html">商品审核</a></li>
+                    <li><a href="comp_storage_goods_admin.html">仓库商品管理</a></li>
+                    <li><a href="comp_shelf_goods_admin.html">下架商品管理</a></li>
+                    <li><a href="comp_goods_recycling_admin.html">商品回收站</a></li>
                 </ul>
             </div>
             <div id="main">
@@ -286,9 +286,14 @@
                                         <li><img src="Public/comp/images/goods.png" alt=""></li>
                                         <li><img src="Public/comp/images/goods.png" alt=""></li>
                                     </ul>
-                                    <p class="upload-goods">
-                                        <input type="file" name=""> 300x300px
-                                    </p>
+                                    <div class="upload-goods mt20">
+                                        <div class="file_con fl">
+                                            <input type="button" value="上传图片" class="redbtn">
+                                            <input type="file" name="jlfj" class="upload_btn">
+                                            <input class="upload_text" type="hidden" id="txt">
+                                        </div>
+                                        <span class="fl ml20">300x300px</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -360,7 +365,9 @@
                                 </div>
                             </div>
                         </div>
-                        <p class="tc sub-btn"><input type="button" value="确定提交" class="redbtn w150"></p>
+                        <p class="tc sub-btn">
+                            <input type="button" value="确定提交" class="redbtn w150">
+                        </p>
                     </form>
                 </div>
             </div>

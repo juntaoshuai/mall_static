@@ -76,14 +76,18 @@
     width: 129px;
 }
 
+.order-tabs-con{padding-bottom: 91px;}
+
 .orderlist {
     margin-top: 10px;
 }
+
 
 .orderlist li {
     border: 1px solid #dbdada;
     background-color: #fff;
     color: #707070;
+    margin-bottom: 10px;
 }
 
 .orderlist .profile {
@@ -181,6 +185,7 @@
 
 .orderlist .opera {
     border-right: none;
+    line-height: 91px;
 }
 
 .status1 {
@@ -427,6 +432,7 @@
 
 .upload-goods{
     color: #7f7f7f;
+    line-height: 36px;
 }
 
 .delivery-time a{
