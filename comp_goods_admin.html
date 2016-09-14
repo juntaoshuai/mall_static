@@ -13,9 +13,9 @@
 </head>
 
 <body>
-    <div id="header">
+        <div id="header">
         <!--登录前-->
-        <div class="login-bar">
+        <div class="login-bar dn">
             <div class="main-wrapper">
                 <p class="fl"><a href="#" class="welcome"><i class="iconfont home">&#xe600;</i>欢迎来到 OFweek Mall</a></p>
                 <p class="fr"><a href="#" class="mr15 login">登录</a><a href="#" class="exit">退出</a></p>
@@ -23,13 +23,15 @@
         </div>
         <!--登录前-->
         <!--登录后-->
-        <div class="main-wrapper dn">
-            <p class="fl"><a href="#" class="welcome"><i class="iconfont home">&#xe600;</i>欢迎来到 OFweek Mall</a></p>
-            <p class="fr"><a href="#" class="mr15 login">商家名称aaa</a><a href="#" class="exit">退出</a></p>
+        <div class="login-bar">
+            <div class="main-wrapper">
+                <p class="fl"><a href="#" class="welcome"><i class="iconfont home">&#xe600;</i>欢迎来到 OFweek Mall</a></p>
+                <p class="fr"><a href="#" class="mr15 login">商家名称aaa</a><a href="#" class="exit">退出</a></p>
+            </div>
         </div>
         <!--登录后-->
         <div class="clearfix mt13 main-wrapper">
-            <p class="logo fl mr25"><img src="Public/comp/images/logo.png"></p>
+            <p class="logo fl mr25"><img src="Public/home/images/navLogo.png"></p>
             <h1 class="fl"><a href="http://mall.ofweek.com" target="_blank">商家后台</a></h1>
         </div>
         <div id="nav" class="mt13">
@@ -37,7 +39,7 @@
                 <ul class="clearfix">
                     <li><a href="#">首页</a></li>
                     <li><a href="#">我的店铺</a></li>
-                    <li><a href="#">交易管理</a></li>
+                    <li><a href="#">订单管理</a></li>
                     <li><a href="#">商品管理</a></li>
                     <li><a href="#">物流管理</a></li>
                     <li><a href="#">结算管理</a></li>
@@ -71,7 +73,7 @@
                                         <span class="select-txt" id="ttype">请选择分类 </span>
                                         <i class="iconfont">&#xe604;</i>
                                     </div>
-                                    <ul class="pulldown-list">
+                                    <ul class="pulldown-list null_category_class_1" data-id="0" data-init-pid="0">
                                         <li data-id="1">一级分类</li>
                                         <li data-id="2">一级分类</li>
                                         <li data-id="3">一级分类</li>
@@ -87,7 +89,7 @@
                                         <span class="select-txt" id="ttype">二级分类</span>
                                         <i class="iconfont">&#xe604;</i>
                                     </div>
-                                    <ul class="pulldown-list">
+                                    <ul class="pulldown-list null_category_class_2" data-id="0">
                                         <li data-id="1">二级分类</li>
                                         <li data-id="2">二级分类</li>
                                         <li data-id="3">二级分类</li>
@@ -103,7 +105,7 @@
                                         <span class="select-txt" id="ttype">三级分类</span>
                                         <i class="iconfont">&#xe604;</i>
                                     </div>
-                                    <ul class="pulldown-list">
+                                    <ul class="pulldown-list null_category_class_3" data-id="0">
                                         <li data-id="1">三级分类</li>
                                         <li data-id="2">三级分类</li>
                                         <li data-id="3">三级分类</li>
@@ -128,25 +130,35 @@
                             <div class="clearfix form-item">
                                 <span class="item-l"><i class="xin">*</i>商品名称：</span>
                                 <div class="item-r">
-                                    <input type="text" class="txt txt98" name="pwd" placeholder="最多20字">
+                                    <input type="text" class="txt txt438" name="pwd" placeholder="最多20字">
                                 </div>
                             </div>
                             <div class="clearfix form-item">
                                 <span class="item-l">商品型号：</span>
                                 <div class="item-r">
-                                    <input type="text" class="txt txt98" name="model">
+                                    <input type="text" class="txt txt438" name="model">
                                 </div>
                             </div>
                             <div class="clearfix form-item">
                                 <span class="item-l"><i class="xin">*</i>商品品牌：</span>
                                 <div class="item-r">
-                                    <input type="text" class="txt txt98" name="brand" placeholder="最多20字">
+                                    <input type="text" class="txt txt438" name="brand" placeholder="最多20字">
                                 </div>
                             </div>
                             <div class="clearfix form-item">
                                 <span class="item-l"><i class="xin">*</i>产地：</span>
                                 <div class="item-r">
-                                    <input type="text" class="txt txt98" name="place">
+                                       <div class="pulldown-box w98">
+                                        <div class="pulldown">
+                                            <span class="select-txt" id="ttype">湖北</span>
+                                            <i class="iconfont">&#xe604;</i>
+                                        </div>
+                                        <ul class="pulldown-list">
+                                            <li data-id="1">湖北</li>
+                                            <li data-id="2">湖南</li>
+                                        </ul>
+                                        <input type="hidden" name="ticketType" value="1">
+                                    </div>
                                 </div>
                             </div>
                             <div class="clearfix form-item">
@@ -158,7 +170,7 @@
                             <div class="clearfix form-item">
                                 <span class="item-l"><i class="xin">*</i>商品类型：</span>
                                 <div class="item-r">
-                                    <div class="pulldown-box w98 fl">
+                                    <div class="pulldown-box w98">
                                         <div class="pulldown">
                                             <span class="select-txt" id="ttype">全新</span>
                                             <i class="iconfont">&#xe604;</i>
@@ -239,7 +251,7 @@
                             <div class="clearfix form-item">
                                 <span class="item-l">商品单位：</span>
                                 <div class="item-r">
-                                    <div class="pulldown-box w98 fl">
+                                    <div class="pulldown-box w98">
                                         <div class="pulldown">
                                             <span class="select-txt" id="ttype">个</span>
                                             <i class="iconfont">&#xe604;</i>
@@ -320,7 +332,18 @@
                             <div class="clearfix form-item">
                                 <span class="item-l"><i class="xin">*</i>发 货 地：</span>
                                 <div class="item-r">
-                                    <input type="text" class="txt txt168" name="pwd">
+                                        <div class="pulldown-box w98">
+                                        <div class="pulldown">
+                                            <span class="select-txt" id="ttype">湖北</span>
+                                            <i class="iconfont">&#xe604;</i>
+                                        </div>
+                                        <ul class="pulldown-list">
+                                            <li data-id="1">湖北</li>
+                                            <li data-id="2">湖南</li>
+                                            <li data-id="3">广东</li>
+                                        </ul>
+                                        <input type="hidden" name="ticketType" value="1">
+                                    </div>
                                 </div>
                             </div>
                             <div class="clearfix form-item">
@@ -328,12 +351,12 @@
                                 <div class="item-r">
                                     <input type="text" class="txt txt168" name="sendtime">
                                     <p class="delivery-time fl ml20">
-                                        <a href="#">72小时</a>
-                                        <a href="#">7天</a>
-                                        <a href="#">14天</a>
-                                        <a href="#">1个月</a>
-                                        <a href="#">3个月</a>
-                                        <a href="#">6个月</a>
+                                        <a href="javascript:;">72小时</a>
+                                        <a href="javascript:;">7天</a>
+                                        <a href="javascript:;">14天</a>
+                                        <a href="javascript:;">1个月</a>
+                                        <a href="javascript:;">3个月</a>
+                                        <a href="javascript:;">6个月</a>
                                     </p>
                                     <p class="delivery-tips">
                                         如实设定商品的发货时间，不仅可避免发货咨询和纠纷，还能促进成交！
