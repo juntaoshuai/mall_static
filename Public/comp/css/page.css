@@ -520,3 +520,12 @@ border-bottom: 1px solid #fff;
 .reshelf{display:block;color: #bf0008;line-height: 26px;}
 /*商品回收站*/
 .recyc-input .grey-btn{color: #707070;}
+
+/*待发货*/
+.order-progress{margin-left: 177px;}
+.order-progress li{float: left;position: relative;width:147px;}
+.order-progress li span{display:block;background: url(../images/dot.png) -33px 0 no-repeat;width:33px;height: 33px;font:20px/33px microsoft Yahei;color:#fff;text-align: center;}
+.order-progress li  .bar{width:114px;height: 8px;background: #66737c;position: absolute;left:-114px;top:12px;}
+.order-progress li.active span{background-position: 0 0;}
+.order-progress li.active  .bar{background: #ff4400;}
+.order-progress li p{font-size: 12px;color:#313131;line-height: 16px;width: 70px;text-align: center;margin-left: -16px;margin-top: 13px;}
