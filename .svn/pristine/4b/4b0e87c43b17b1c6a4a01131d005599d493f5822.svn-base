@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="Public/base/base.css">
+    <link rel="stylesheet" href="Public/home/css/header.css">
+    <link rel="stylesheet" href="Public/home/css/index.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header bgfff">
+        <div class="container">
+            <div class="fl">
+                <span class="fl">欢迎来到 OFweek Mall</span>
+                <a href="javascript:;">id_358796</a> <a href="javescript:;">退出</a>
+            </div>
+            <div class="fr">
+                <a href="javascript:;">我的MALL</a><i>|</i><a href="javescript:;">我的订单</a><i>|</i><a href="javascript:;">我的收藏</a>
+            </div>
+        </div>
+    </div>
+    <!-- 搜索 -->  
+    <div class="mall-search"> 
+        <div class="container searchContent">
+            <a href="javascript:;" class="seachLogo fl">
+                <img src="Public/home/images/navLogo.png" alt="">
+            </a>
+            <div class="fl mall-search-tlt">
+                <a href="javascript:;">首页</a>
+                <a href="javascript:;">账户设置<span></span></a>
+            </div>
+            <div class="myShopping fr">
+                <a href="javascript:;"><i></i>我的购物车 &gt;</a>
+                <span>10</span>
+            </div>
+            <div class="fr searchGroup">
+                <input type="text" placeholder="请输入商品名称">
+                <div><span></span>搜索</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pb242">
+        <div class="mall-nav">
+            <a href="javascript:;">首页</a>
+            <i>&gt;</i>
+            <span class="">“OFweek mall”</span>
+        </div>
+
+        <div class="mall-content">
+            <!-- 左侧导航栏目 -->
+            <div class="mall-left">
+                <div class="mall-navList">
+                    <div class="user-icon">
+                        <a href="javascript:;">
+                            <img src="Public/home/img/userIcon.png" alt="">
+                        </a>
+                        <span>用户名:张三</span>
+                    </div>
+                    <div class="mall-qualification mt10">
+                        <a href="javascript:;">
+                            <span class="mall-icon email-icon fl"></span>认证邮箱
+                        </a>
+                        <a href="javascript:;">
+                            <span class="mall-icon phone-icon"></span>手机未绑定
+                        </a>
+                    </div>
+
+                    <div class="mall-left-item">
+                        <div class="nav-item">
+                            <span class="mall-icon shop-icon"></span>
+                            <a href="javascript:;">我的购物车</a>
+                        </div>
+                        <div class="nav-item active">
+                            <span class="mall-icon order-icon"></span>
+                            <a href="javascript:;">我的订单</a>
+                            <div class="li-items">
+                                <ul>
+                                    <li><a href="javascript:;">待议价</a></li>
+                                    <li><a href="javascript:;">待付款</a></li>
+                                    <li><a href="javascript:;">待发货</a></li>
+                                    <li><a href="javascript:;">待收货</a></li>
+                                    <li><a href="javascript:;">待评价</a></li>
+                                    <li><a href="javascript:;">退款中</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <span class="mall-icon collect-icon"></span>
+                            <a href="javascript:;">我的收藏</a>
+                        </div>
+                        <div class="nav-item">
+                            <span class="mall-icon set-icon"></span>
+                            <a href="javascript:;">账户设置</a>
+                            <div class="li-items">
+                                <ul>
+                                    <li><a href="javascript:;">账户安全</a></li>
+                                    <li><a href="javascript:;">收货地址</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <span class="mall-icon eval-icon"></span>
+                            <a href="javascript:;">我的评价</a>
+                        </div>
+                        <div class="nav-item">
+                            <span class="mall-icon write-icon"></span>
+                            <a href="javascript:;">投诉建议</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customer-service">
+                    <h2>联系客服</h2>
+                    <div class="service-footer">
+                        <div class="service-dia">
+                            <a href="javascript:;">
+                                <span class="mall-icon"></span>在线客服
+                            </a>
+                        </div>
+                        <p class="mt25">服务时间</p>
+                        <p>周一至周五 9：00~18：00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mall-right">
+                <h2 class="orderTlt">我的订单</h2>
+                <div class="orderTlt bgfff mt15">
+                    <span>订单搜索：</span>
+                    <input class="search-input" type="text" placeholder="输入商品标题或订单号进行搜索">
+                    <span>订单日期：</span>
+                    <input class="date-start" type="text" placeholder="请选择起始时间范围">
+                    <span>到</span>
+                    <input class="date-end" type="text" placeholder="请选择结束时间范围">
+                    <button class="search-btn fr">搜索</button>
+                    <button class="empty-btn fr">清空</button>                  
+                </div>
+                <!-- 我的订单 -->
+                <div class="mallright-list  mt15">
+                    <div class="right-toptlt">
+                        <div class="fl order-list">
+                            <ul>
+                                <li><a class="active" href="javascritp:;">全部订单</a></li>
+                                <li><a href="javascritp:;">待议价</a></li>
+                                <li><a href="javascritp:;">待付款</a></li>
+                                <li><a href="javascritp:;">待发货</a></li>
+                                <li><a href="javascritp:;">待收货</a></li>
+                                <li><a href="javascritp:;">待评价</a></li>
+                                <li><a href="javascritp:;">退款中</a></li>
+                            </ul>
+                        </div>
+                        <a class="fr order-top-right">
+                            <span class="mall-icon"></span>
+                            订单回收站
+                        </a>
+                    </div>
+                    <table width="100%" align="center">
+                        <colgroup class="col-mall-m1"></colgroup>
+                        <colgroup class="col-mall-m2"></colgroup>
+                        <colgroup class="col-mall-m3"></colgroup>
+                        <colgroup class="col-mall-m4"></colgroup>
+                        <colgroup class="col-mall-m5"></colgroup>
+                        <colgroup class="col-mall-m6"></colgroup>
+                        <colgroup class="col-mall-m7"></colgroup>
+                        <tr>
+                            <th>商品</th>
+                            <th>数量</th>
+                            <th>单价</th>
+                            <th>实收款</th>
+                            <th>商品操作</th>
+                            <th>交易状态</th>
+                            <th>交易操作</th>
+                        </tr>
+                    </table>
+                    <div>
+                        <div class="mall-item-tb">
+                            <div class="tb-top">
+                                <span class="ml15">2015-12-15</span>
+                                <span class="ml15 mr100">订单号：123456789</span>
+                                商家名称<a href="javascript:;" class="mall-icon ml10"></a>
+                            </div>
+                            <table class="mall-detail-item">
+                                <colgroup class="col-mall-m1"></colgroup>
+                                <colgroup class="col-mall-m2"></colgroup>
+                                <colgroup class="col-mall-m3"></colgroup>
+                                <colgroup class="col-mall-m4"></colgroup>
+                                <colgroup class="col-mall-m5"></colgroup>
+                                <colgroup class="col-mall-m6"></colgroup>
+                                <colgroup class="col-mall-m7"></colgroup>             
+                                <tr>
+                                    <td>
+                                        <a class="fl mall-product-icon" href="javascript:;">
+                                            <img src="Public/home/img/item.png" alt="">
+                                        </a>
+                                        <div class="fl mall-product-content">
+                                            <a href="javascript:;">商品名称商品信息手持水下摄像机</a>
+                                            <label for="">[交易快照]</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        x1
+                                    </td>
+                                    <td>
+                                       <span class="mall-prize-show">500.00</span>
+                                    </td>
+                                    <td>
+                                        <p><span class="mall-prize-show">500.00</span></p>
+                                        <p>含运费（<span class="mall-prize-show">0.00</span>）</p>
+                                        <p><label for="">[在线支付]</label></p>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;">查看退款</a>
+                                        <a href="javascript:;">订单投诉</a>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;" class="orderRed">退款中</a>
+                                        <a href="javascript:;">订单详情</a>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;" class="buy-again">再次购买</a>
+                                    </td>
+                                </tr>               
+                            </table>
+                            <table class="mall-detail-item">
+                                <colgroup class="col-mall-m1"></colgroup>
+                                <colgroup class="col-mall-m2"></colgroup>
+                                <colgroup class="col-mall-m3"></colgroup>
+                                <colgroup class="col-mall-m4"></colgroup>
+                                <colgroup class="col-mall-m5"></colgroup>
+                                <colgroup class="col-mall-m6"></colgroup>
+                                <colgroup class="col-mall-m7"></colgroup>             
+                                <tr>
+                                    <td>
+                                        <a class="fl mall-product-icon" href="javascript:;">
+                                            <img src="Public/home/img/item.png" alt="">
+                                        </a>
+                                        <div class="fl mall-product-content">
+                                            <a href="javascript:;">商品名称商品信息手持水下摄像机</a>
+                                            <label for="">[交易快照]</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        x1
+                                    </td>
+                                    <td>
+                                       <span class="mall-prize-show">500.00</span>
+                                    </td>
+                                    <td>
+                                        <p><span class="mall-prize-show">500.00</span></p>
+                                        <p>含运费（<span class="mall-prize-show">0.00</span>）</p>
+                                        <p><label for="">[在线支付]</label></p>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;">查看退款</a>
+                                        <a href="javascript:;">订单投诉</a>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;" class="orderRed">退款中</a>
+                                        <a href="javascript:;">订单详情</a>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;" class="buy-again">再次购买</a>
+                                    </td>
+                                </tr>               
+                            </table>
+                        </div>
+                        <div class="mall-item-tb">
+                            <div class="tb-top">
+                                <span class="ml15">2015-12-15</span>
+                                <span class="ml15 mr100">订单号：123456789</span>
+                                商家名称<a href="javascript:;" class="mall-icon ml10"></a>
+                            </div>
+                            <table class="mall-detail-item">
+                                <colgroup class="col-mall-m1"></colgroup>
+                                <colgroup class="col-mall-m2"></colgroup>
+                                <colgroup class="col-mall-m3"></colgroup>
+                                <colgroup class="col-mall-m4"></colgroup>
+                                <colgroup class="col-mall-m5"></colgroup>
+                                <colgroup class="col-mall-m6"></colgroup>
+                                <colgroup class="col-mall-m7"></colgroup>             
+                                <tr>
+                                    <td>
+                                        <a class="fl mall-product-icon" href="javascript:;">
+                                            <img src="Public/home/img/item.png" alt="">
+                                        </a>
+                                        <div class="fl mall-product-content">
+                                            <a href="javascript:;">商品名称商品信息手持水下摄像机</a>
+                                            <label for="">[交易快照]</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        x1
+                                    </td>
+                                    <td>
+                                       <span class="mall-prize-show">500.00</span>
+                                    </td>
+                                    <td>
+                                        <p><span class="mall-prize-show">500.00</span></p>
+                                        <p>含运费（<span class="mall-prize-show">0.00</span>）</p>
+                                        <p><label for="">[在线支付]</label></p>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;">订单投诉</a>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;">待付款</a>
+                                        <a href="javascript:;">订单详情</a>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;" class="mall-icon now-payment">立即付款</a>
+                                        <a href="javascript:;">取消订单</a>
+                                    </td>
+                                </tr>               
+                            </table>
+                        </div>
+                        <div class="mall-item-tb">
+                            <div class="tb-top">
+                                <span class="ml15">2015-12-15</span>
+                                <span class="ml15 mr100">订单号：123456789</span>
+                                商家名称<a href="javascript:;" class="mall-icon ml10"></a>
+                            </div>
+                            <table class="mall-detail-item">
+                                <colgroup class="col-mall-m1"></colgroup>
+                                <colgroup class="col-mall-m2"></colgroup>
+                                <colgroup class="col-mall-m3"></colgroup>
+                                <colgroup class="col-mall-m4"></colgroup>
+                                <colgroup class="col-mall-m5"></colgroup>
+                                <colgroup class="col-mall-m6"></colgroup>
+                                <colgroup class="col-mall-m7"></colgroup>             
+                                <tr>
+                                    <td>
+                                        <a class="fl mall-product-icon" href="javascript:;">
+                                            <img src="Public/home/img/item.png" alt="">
+                                        </a>
+                                        <div class="fl mall-product-content">
+                                            <a href="javascript:;">商品名称商品信息手持水下摄像机</a>
+                                            <label for="">[交易快照]</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        x1
+                                    </td>
+                                    <td>
+                                       <span class="mall-prize-show">500.00</span>
+                                    </td>
+                                    <td>
+                                        <p><span class="mall-prize-show">500.00</span></p>
+                                        <p>含运费（<span class="mall-prize-show">0.00</span>）</p>
+                                        <p><label for="">[在线支付]</label></p>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;">订单投诉</a>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;">待收货</a>
+                                        <a href="javascript:;">订单详情</a>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;" class="mall-icon ready-had">确认收货</a>
+                                        <!-- <a href="javascript:;">取消订单</a> -->
+                                    </td>
+                                </tr>               
+                            </table>
+                        </div>
+                        <div class="mall-item-tb">
+                            <div class="tb-top">
+                                <span class="ml15">2015-12-15</span>
+                                <span class="ml15 mr100">订单号：123456789</span>
+                                商家名称<a href="javascript:;" class="mall-icon ml10"></a>
+                            </div>
+                            <table class="mall-detail-item">
+                                <colgroup class="col-mall-m1"></colgroup>
+                                <colgroup class="col-mall-m2"></colgroup>
+                                <colgroup class="col-mall-m3"></colgroup>
+                                <colgroup class="col-mall-m4"></colgroup>
+                                <colgroup class="col-mall-m5"></colgroup>
+                                <colgroup class="col-mall-m6"></colgroup>
+                                <colgroup class="col-mall-m7"></colgroup>             
+                                <tr>
+                                    <td>
+                                        <a class="fl mall-product-icon" href="javascript:;">
+                                            <img src="Public/home/img/item.png" alt="">
+                                        </a>
+                                        <div class="fl mall-product-content">
+                                            <a href="javascript:;">商品名称商品信息手持水下摄像机</a>
+                                            <label for="">[交易快照]</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        x1
+                                    </td>
+                                    <td>
+                                       <span class="mall-prize-show">500.00</span>
+                                    </td>
+                                    <td>
+                                        <p><span class="mall-prize-show">500.00</span></p>
+                                        <p>含运费（<span class="mall-prize-show">0.00</span>）</p>
+                                        <p><label for="">[在线支付]</label></p>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;">订单投诉</a>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;">待发货</a>
+                                        <a href="javascript:;">订单详情</a>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;">提醒发货</a>
+                                        <!-- <a href="javascript:;">取消订单</a> -->
+                                    </td>
+                                </tr>               
+                            </table>
+                        </div>
+                        <div class="mall-item-tb">
+                            <div class="tb-top">
+                                <span class="ml15">2015-12-15</span>
+                                <span class="ml15 mr100">订单号：123456789</span>
+                                商家名称<a href="javascript:;" class="mall-icon ml10"></a>
+                            </div>
+                            <table class="mall-detail-item">
+                                <colgroup class="col-mall-m1"></colgroup>
+                                <colgroup class="col-mall-m2"></colgroup>
+                                <colgroup class="col-mall-m3"></colgroup>
+                                <colgroup class="col-mall-m4"></colgroup>
+                                <colgroup class="col-mall-m5"></colgroup>
+                                <colgroup class="col-mall-m6"></colgroup>
+                                <colgroup class="col-mall-m7"></colgroup>             
+                                <tr>
+                                    <td>
+                                        <a class="fl mall-product-icon" href="javascript:;">
+                                            <img src="Public/home/img/item.png" alt="">
+                                        </a>
+                                        <div class="fl mall-product-content">
+                                            <a href="javascript:;">商品名称商品信息手持水下摄像机</a>
+                                            <label for="">[交易快照]</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        x1
+                                    </td>
+                                    <td>
+                                       <span class="mall-prize-show">500.00</span>
+                                    </td>
+                                    <td>
+                                        <p><span class="mall-prize-show">500.00</span></p>
+                                        <p>含运费（<span class="mall-prize-show">0.00</span>）</p>
+                                        <p><label for="">[在线支付]</label></p>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;">订单投诉</a>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;">待议价</a>
+                                        <a href="javascript:;">订单详情</a>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:;">立即议价</a>
+                                        <!-- <a href="javascript:;">取消订单</a> -->
+                                    </td>
+                                </tr>               
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="orderTlt bgfff mt15">
+                    <div class="fl order-footer-left">
+                        <input class="fl" type="checkbox" id="all">
+                        <label for="all">全选</label>
+                        <a href="javascript:;">提醒发货</a>
+                    </div>
+                    <div class="fr order-footer-right">
+                        <div class="fl page">
+                            <a class="up on" href="javascript:;">&lt; 上一页</a>
+                            <a class="active" class="active" href="javascript:;">1</a>
+                            <a href="javascript:;">2</a>
+                            <a href="javascript:;">3</a>
+                            <a href="javascript:;">4</a>
+                            <a href="javascript:;">5</a>
+                            <a href="javascript:;">...</a>
+                            <a class="down" href="javascript:;">下一页 &gt;</a>
+                        </div>
+                        <span class="order-footer-total">共100页</span>
+                        <span>到第<input type="text" value="1">页</span>
+                        <button class="fr">确定</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <ul>
+                    <li><span class="ft1"></span>全程担保 购物无忧</li>
+                    <li><span class="ft2"></span>认证商品 正规渠道</li>
+                    <li><span class="ft3"></span>行业专家 品质保证</li>
+                    <li class="br0"><span class="ft4"></span>高效解答 疑问速决</li>
+                </ul>
+            </div>
+            <div class="footer_nav">
+                <a href="javascript:;">关于我们</a>
+                <a href="javascript:;">联系我们</a>
+                <a href="javascript:;">用户条款</a>
+                <a href="javascript:;">隐私条款</a>
+                <a href="javascript:;">招募供应商</a>
+            </div>
+            <p>粤ICP备06087881号-1　　　　版权所有－OFweek Mall 网站所有图片、文字未经许可不得拷贝、复制。</p>
+        </div>
+    </div>
+</body>
+</html>

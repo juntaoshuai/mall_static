@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>退货退款</title>
+	<link rel="stylesheet" href="Public/base/base.css">
+	<link rel="stylesheet" href="Public/home/css/header.css">
+	<link rel="stylesheet" href="Public/home/css/index.css">
+	<link rel="stylesheet" href="Public/home/css/layer.css">
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="fl">
+				<span class="fl">欢迎来到 OFweek Mall</span>
+				<a href="javascript:;">登录</a><i>|</i><a href="javescript:;">注册</a>
+			</div>
+			<div class="fr">
+				<a href="javascript:;">我的MALL</a><i>|</i><a href="javescript:;">我的订单</a><i>|</i><a href="javascript:;">我的收藏</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 搜索 -->
+	<div class="container searchContent">
+		<a href="javascript:;" class="seachLogo fl">
+			<img src="Public/home/images/navLogo.png" alt="">
+		</a>
+		<div class="fl searchGroup">
+			<input type="text" placeholder="请输入商品名称">
+			<div><span></span>搜索</div>
+		</div>
+		<div class="myShopping fl">
+			<a href="javascript:;"><i></i>我的购物车 &gt;</a>
+			<span>10</span>
+		</div>
+	</div>
+	
+	<div class="container-fuild pb242">
+		<div class="nav-tlt-content">
+			<div class="container">
+				<div class="nav-list-content">
+					<h2>全部商品分类<i class="mall-icon fr"></i></h2>		
+	                <div class="all-list-content">
+	                	<div class="all-items">
+		                    <h4>仪器仪表<span class="fr">&gt;</span></h4>
+		                    <ul class="clearfix">
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                    </ul>
+		                    <div class="bdWhite"></div>
+	                    </div>
+	                	<div class="all-items mt10">
+		                    <h4>仪器仪表<span class="fr">&gt;</span></h4>
+		                    <ul class="clearfix">
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                    </ul>
+	                    </div>
+	                </div>
+
+	                <div class="all-right-content">
+	                    <div class="all-r-item">
+	                        <h5>仪器</h5>
+	                        <div class="item_nav">
+	                            <a href="javascript:;">温/温度检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                        </div>
+	                        <h5>仪表</h5>
+	                        <div class="item_nav">
+	                            <a href="javascript:;">温/温度检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                        </div>
+	                    </div>	        
+	                    <div class="all-r-item">
+	                        <h5>仪器</h5>
+	                        <div class="item_nav">
+	                            <a href="javascript:;">温/温度检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪22</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                        </div>
+	                        <h5>仪表</h5>
+	                        <div class="item_nav">
+	                            <a href="javascript:;">温/温度检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                        </div>
+	                    </div>	    	
+	                </div>
+				</div>
+				<h1><a href="javascript:;">首页</a><a href="javascript:;">传感器</a></h1>
+			</div>
+		</div>
+
+		<div class="mall-nav bbf1f1f1">
+			<div class="container">
+				<a href="javascript:;">我的订单</a>
+				<i>&gt;</i>
+				<a href="javascript:;">订单详情</a>
+				<i>&gt;</i>
+				<span class="">订单号：123456</span>
+			</div>
+		</div>
+
+		<div class="container mt20">
+			<div class="payment-top">
+                订单号： <span>123456789</span>订单状态：<span>退款中</span> 
+            </div>
+            <div class="bdf2f2f2">
+		        <div class="progess-bar ml340 pt20 pb20">
+		            <ul class="clearfix">
+		                <li>
+		                    <div class="bar1 bar1-y-active bar">1</div>
+		                    <p>提交申请</p>
+		                    <p>2015-12-16 <br>14:00:00</p>
+		                </li>
+		                <li>
+		                    <div class="bar2 bar">2</div>
+		                    <p>等待审核</p>
+		                </li>
+		                <li>
+		                    <div class="bar3 bar">3</div>
+		                    <p>审核通过</p>
+		                </li>
+		                <li>
+		                    <div class="bar5 bar">4</div>
+		                    <p>退款成功</p>
+		                </li>
+		            </ul>
+		        </div>
+	    	</div>
+	    	<div class="bdf2f2f2 ptb20 pl10 mt20">
+				<h5 class="status-p fs">退款状态：等待申请审核</h5>
+				<p class="fs-p">	
+					退货货物订单均需商家处理，请耐心等待，可联系商家客服进行咨询。如遇退换货纠纷，可在个人中心进行订单申诉交由平台处理。
+				</p>
+			</div>
+			<table width="100%" class="orderTb mt20">
+                <tbody><tr>
+                    <th width="200"><div class="w140">订单信息</div></th>
+                    <th width="200">商家</span></th>
+                    <th width="200">服务类型</span></th>
+                    <th width="200">数量</th>
+                    <th width="200">退款金额</th>
+                    <th width="200">订单状态</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="w140">
+                            <a class="ofTb-pic" href="javascript:;">
+                                <img src="Public/home/img/item.png" alt="">
+                            </a>
+                            <a href="javascript:;">商品信息：手持潜水相机</a>
+                            <p>商品简介商品简介商品简包装规格：20打/袋</p>
+                        </div>
+                    </td>
+                    <td>
+                    	<a class="bus-chat" href="javascript:;">
+                    		商家名称
+                    		<span class="mall-icon"></span>
+                    	</a>
+                    </td>
+                    <td><span class="f14">退款退货</span></td>
+                    <td><span class="f14">1</span></td>
+                    <td><span class="mall-prize-show f14">10.00</span></td>
+                    <td>
+                    	<div class="f14">
+	                    	退款中
+	                    	<p>申请未通过审核<br>请修改申请</p>
+                    	</div>
+                    </td>
+                </tr>
+            </tbody></table>
+       	</div>
+		<!-- container结束 -->
+	</div>
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer_content">
+				<ul>
+					<li><span class="ft1"></span>全程担保 购物无忧</li>
+					<li><span class="ft2"></span>认证商品 正规渠道</li>
+					<li><span class="ft3"></span>行业专家 品质保证</li>
+					<li class="br0"><span class="ft4"></span>高效解答 疑问速决</li>
+				</ul>
+			</div>
+			<div class="footer_nav">
+				<a href="javascript:;">关于我们</a>
+				<a href="javascript:;">联系我们</a>
+				<a href="javascript:;">用户条款</a>
+				<a href="javascript:;">隐私条款</a>
+				<a href="javascript:;">招募供应商</a>
+			</div>
+			<p>粤ICP备06087881号-1　　　　版权所有－OFweek Mall 网站所有图片、文字未经许可不得拷贝、复制。</p>
+		</div>
+	</div>
+
+	<script src="Public/base/jquery-1.8.2.min.js"></script>
+	<script src="Public/base/layer.js"></script>
+	<script>
+		$(function(){
+			// 导航条展开
+			$(".nav-list-content").hover(function(){
+				$(this).find(".all-list-content").show();
+			},function(){
+				$(this).find(".all-list-content").hide();
+				$('.all-right-content .all-r-item').hide();
+				$('.all-right-content').hide();
+				$(".all-items .active").removeClass('active');
+			})
+
+            // 支付方式切换
+            $(".pay-style .mall-icon").click(function(){
+                var index = $(this).index();
+
+                $(".pay-style .active").removeClass('active');
+
+                $(this).addClass('active');
+            });
+
+			//小导航条展开
+			$(".all-items h4").mouseover(function(){
+				var index  = $(this).parent().index();
+				$(".all-items .active").removeClass('active');
+				$(this).addClass('active');
+				$('.all-right-content').show();
+				$('.all-right-content .all-r-item').hide();
+				$('.all-right-content .all-r-item').eq(index).show();
+			})
+		})
+	</script>
+</body>
+</html>

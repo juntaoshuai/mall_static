@@ -1,0 +1,562 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @shuaijuntao (you@example.org)
+ * @date    2016-08-25 16:09:16
+ * @version $Id$
+ */
+
+body {
+    font-family: simsun, Arial;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+a {
+    color: #666;
+}
+
+a:hover {
+    color: #c00;
+}
+
+i {
+    font-style: normal;
+}
+
+.c0 {
+    color: #000;
+}
+.c70{
+    color:#707070;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.grey-bg {
+    background: #f3f3f3;
+}
+.mr8{margin-right: 8px;}
+.mr24{margin-right:24px;}
+.mt13 {
+    margin-top: 13px;
+}
+
+.mb22 {
+    margin-bottom: 22px;
+}
+
+.lh20 {
+    line-height: 20px;
+}
+
+.lh22 {
+    line-height: 22px;
+}
+
+.lh24 {
+    line-height: 24px;
+}
+.lh32{
+    line-height: 32px;
+}
+
+
+/*字体图标*/
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('http://at.alicdn.com/t/font_1472974048_3350017.eot'); /* IE9*/
+  src: url('http://at.alicdn.com/t/font_1472974048_3350017.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('http://at.alicdn.com/t/font_1472974048_3350017.woff') format('woff'), /* chrome、firefox */
+  url('http://at.alicdn.com/t/font_1472974048_3350017.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('http://at.alicdn.com/t/font_1472974048_3350017.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+                    
+                    
+
+.iconfont {
+    font-family: "iconfont";
+    font-style: normal;
+    vertical-align: middle;
+}
+
+.main-wrapper {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#side {
+    width: 150px;
+    height: 592px;
+    float: left;
+    background-color: #fff;
+}
+
+#main {
+    width: 930px;
+    float: right;
+}
+
+
+/*header*/
+
+.login-bar {
+    background: #f1f1f1;
+    height: 30px;
+    line-height: 30px;
+}
+
+.login-bar .welcome {
+    text-decoration: none;
+}
+
+.login-bar .home {
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-right: 9px;
+}
+
+.login-bar .login{padding:0;}
+
+#header {
+    background: #fff;
+}
+
+#header h1 {
+    font: 24px/68px microsoft Yahei;
+    color: #4f4f4f;
+    background: url(../images/title_line.png) left center no-repeat;
+    padding-left: 15px;
+}
+
+#nav {
+    border-bottom: 2px solid #bf0008;
+}
+
+#nav ul {
+    background-color: #bf0008;
+    padding-left: 60px;
+}
+
+#nav ul li {
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    margin-right: 56px;
+}
+
+#nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/*面包屑导航*/
+
+.position {
+    color: #666;
+    line-height: 52px;
+}
+
+.position span,
+.position a {
+    color: #666;
+    margin: 0 6px;
+}
+
+.position a:hover {
+    color: #c00;
+}
+
+
+/*left nav*/
+
+.leftnav li {
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.leftnav li a {
+    display: block;
+    font: 12px/25px simsun;
+    color: #303131;
+    padding-left: 37px;
+}
+
+.leftnav li a:hover,
+.leftnav li a.active {
+    background: url(../images/nav_hover.png) right center no-repeat;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*footer*/
+
+#footer {
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+.service-mall {
+    background-color: #f7f9f9;
+    line-height: 140px;
+}
+
+.service-mall span {
+    background: url(../images/mall_sprite.png) 0 0 no-repeat;
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    height: 50px;
+    font: 18px/50px "微软雅黑";
+    color: #212121;
+    padding-left: 63px;
+    padding-right: 27px;
+    margin-right: 28px;
+}
+
+.service-mall .item1 {
+    background-position: 0 -33px;
+}
+
+.service-mall .item2 {
+    background-position: 0 -83px;
+}
+
+.service-mall .item3 {
+    background-position: 0 -133px;
+}
+
+.service-mall .item4 {
+    background-position: 0 -183px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.service-mall span i {
+    position: absolute;
+    width: 1px;
+    height: 45px;
+    right: 0;
+    top: 4px;
+    background: #d7d7d7;
+}
+
+#footer .footer-nav a {
+    color: #666;
+    margin: 0 28.5px;
+}
+
+#footer .copyright,
+#footer .copyright a {
+    color: #999;
+}
+
+#footer .copyright a:hover {
+    color: #c00;
+}
+
+
+/*title*/
+
+.page-title {
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+
+.page-title h2 {
+    border-left: 2px solid #bf0008;
+    font-family: microsoft Yahei;
+    font-size: 20px;
+    color: #000;
+    padding-left: 7px;
+}
+
+
+/*btn*/
+
+.redbtn {
+    width: 93px;
+    height: 36px;
+    background-color: #c81623;
+    font: bold 16px/36px microsoft Yahei;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+.redbtn.w150{
+    width: 150px;
+}
+.grey-btn{
+    width: 70px;
+    height: 25px;
+    border: 1px solid #8c8c8c;
+    background: #f7f7f7;
+    background: -moz-linear-gradient(top, #fcfcfc, #ececec);
+    background: -webkit-linear-gradient(top, #fcfcfc, #ececec);
+    background: -ms-linear-gradient(top, #fcfcfc, #ececec);
+    background: linear-gradient(top, #fcfcfc, #ececec);
+    outline: none;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #005eae;
+    cursor: pointer;
+    text-align: center;
+}
+.grey-btn.btn50{
+    width:50px;
+}
+
+
+.o-orange-btn,.o-blue-btn,.o-red-btn{
+    width: 70px;
+    height: 25px;
+    background: #ff9633;
+    outline: none;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;   
+    border:none; 
+    vertical-align: middle;
+}
+.o-blue-btn{background: #349cf5;}
+.o-red-btn{background: #e3010a;}
+
+/*表单*/
+
+.form .form-item {
+    margin: 0 0 20px;
+    line-height: 35px;
+    vertical-align: top;
+}
+
+.form .btn-box {
+    vertical-align: top;
+}
+
+.form .form-item.mb10 {
+    margin-bottom: 10px;
+}
+
+.form  .item-l,
+.form .item-r,
+.form .btn-box .item-l,
+.form .btn-box .item-r {
+    float: left;
+    display: inline;
+}
+
+.form .xin {
+    color: #f00;
+    font-size: 12px;
+    margin-right: 6px;
+    font-weight: normal;
+
+}
+
+.form .item-l,
+.form .btn-box .item-l {
+    font-size: 14px;
+    color: #313131;
+    width: 84px;
+    text-align: right;
+    margin-right: 14px;
+}
+.txt{
+    width:23px;
+    height:28px;
+    line-height:28px\9;
+    float: left;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-family: simsun;
+    font-size: 12px;
+    color: #313131;
+    outline: none;
+}
+.form .txt {
+    width: 248px;
+    height: 33px;
+    line-height: 33px\9;
+    font-size: 14px;
+    text-indent: 8px;
+}
+.form .txt23,.txt23{
+    width: 23px;
+}
+.form .txt38,.txt38{
+    width: 38px;
+}
+.form .txt88,.txt88 {
+    width: 88px;
+}
+.form .txt98,.txt98 {
+    width: 98px;
+}
+.form .txt118,.txt118 {
+    width: 118px;
+}
+.form .txt128,.txt128 {
+    width: 118px;
+}
+.form .txt168,.txt168 {
+    width: 168px;
+}
+.form .txt198,.txt198 {
+    width: 198px;
+}
+.form .txt398,.txt398 {
+    width: 398px;
+}
+.form .txt438,.txt438 {
+    width: 438px;
+}
+.form .txt448,.txt448 {
+    width: 448px;
+}
+
+
+
+/*下拉列表*/
+
+.pulldown-box {
+    position: relative;
+    width: 228px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+.pulldown-box .pulldown {
+    height: 100%; 
+    cursor: pointer;
+    background: #fff;
+    font-size: 12px;
+    color: #333;
+    text-indent: 8px;
+    outline: none;
+}
+
+.pulldown-box .pulldown span {
+    float: left;
+}
+
+.pulldown-box .pulldown i {
+    float: right;
+    display: inline;
+    margin-right: 10px;
+    color: #333;
+    font-style: normal;
+}
+
+.pulldown-box .pulldown-list {
+    position: absolute;
+    width: 228px;
+    background: #fff;
+    border: 1px solid #ccc;
+    left:-1px;
+    top: 27px;
+    z-index: 1;
+    display: none;
+}
+
+.pulldown-box .pulldown-list li {
+    font-size: 12px;
+    line-height: 24px;
+    color: #000;
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+.pulldown-box .pulldown-list li:hover {
+    background: #ccc;
+}
+
+.pulldown-box.w98{
+    width: 98px;
+}
+.pulldown-box.w118{
+    width:118px;
+}
+.pulldown-box.w98{
+    width: 98px;
+}
+.pulldown-box.w98{
+    width: 98px;
+}
+.pulldown-box.w98{
+    width: 98px;
+}
+
+/*表格列表（在售商品商品列表）*/
+.table-list{padding-bottom: 73px;}
+.table-list table{border:1px solid #dbdada;}
+.table-list-hd{background:#fff4e8;height: 30px;}
+.table-list-hd td{color:#707070;font-weight: bold;text-align:center;}
+.col1{width:38%}
+.col2{width:17%}
+.col3{width:15%}
+.col4{width:12%}
+.col5{width:18%}
+.table-list-bd table{background: #fff;width: 100%;height: 93px;margin-bottom: 10px;}
+.table-list-bd table td{border:1px solid #edecec;text-align: center;}
+.table-list-bd .detail-wrap{text-align: left;margin: 0 10px 0 19px;}
+.table-list-bd .detail-wrap input{margin-right: 12px;}
+.table-list-bd .p-img,.table-list-bd .p-msg{display: inline-block;*display:inline;*zoom:1;vertical-align: middle;}
+.table-list-bd .p-img img{width: 61px;height: 61px;}
+.table-list-bd .p-msg{width:214px;line-height: 18px}
+
+/*main search*/
+.main-search{background: #fff;border:1px solid #dbdada;height:58px;line-height:58px;color: #333;padding:0 0 0 10px;}
+.main-search .form .txt{height: 28px;line-height: 28px\9;margin-top: 14px;*margin-top:0;float: none;*vertical-align: middle;}
+.main-search .form .txt38{text-align:center;text-indent: 0;}
+.main-search .pulldown-box{margin-top: 14px;}
+.main-search dd{margin-right: 25px;*margin-right:12px;}
+.main-search .grey-btn{width: 50px;}
+.main-search p{margin-left:3px;}
+
+/*全选的区域*/
+.operate-all {
+    line-height: 42px;
+    color: #707070;
+    padding-left: 20px;
+}
+
+.operate-all label {
+    margin-right:24px;
+}
+
+/*分页*/
+.page{height:42px;line-height: 42px;color: #707070;vertical-align:top;}
+.page input{margin-top: 8px;}
+.page a{padding: 0 6px;}
+.page a:hover,.page .current{color:#bf0008;}
+.page-link a{vertical-align: top;line-height: 42px;display: inline-block;}
+.page .grey-btn{width: 50px;}
+.page .txt{text-align:center;text-indent: 0;margin-top: 0;height:23px;line-height: 23px\9;}
+.page .total-page{margin-left: 23px;}
+.page .go-page{margin: 0 10px 0 18px;letter-spacing:3px;line-height: 42px;vertical-align: middle;}
+.page .go-page input{margin-right: 3px;float: none;*display: inline-block;*vertical-align: middle;}
+.page .confirm{*margin-top:-1px;}
+
+/*上传按钮*/
+.file_con{position: relative;}
+.file_con .upload_btn{width:93px; height:36px;opacity:0; filter:alpha(opacity=0);position: absolute;left:0;top:0;}

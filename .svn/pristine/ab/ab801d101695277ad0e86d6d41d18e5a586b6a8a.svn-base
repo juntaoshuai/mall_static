@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>登录</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link rel="stylesheet" type="text/css" href="Public/base/base.css">
+        <link rel="stylesheet" type="text/css" href="Public/comp/css/common.css">
+        <link rel="stylesheet" type="text/css" href="Public/comp/css/page.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <!--登录前-->
+            <div class="login-bar">
+                <div class="main-wrapper">
+                    <p class="fl"><a href="#" class="welcome"><i class="iconfont home">&#xe600;</i>欢迎来到 OFweek Mall</a></p>
+                    <p class="fr"><a href="#" class="mr15 login">登录</a><a href="#" class="exit">退出</a></p>
+                </div>
+            </div>
+            <!--登录前-->
+            <!--登录后-->
+            <div class="main-wrapper dn">
+                <p class="fl"><a href="#" class="welcome"><i class="iconfont home">&#xe600;</i>欢迎来到 OFweek Mall</a></p>
+                <p class="fr"><a href="#" class="mr15 login">商家名称aaa</a><a href="#" class="exit">退出</a></p>
+            </div>
+            <!--登录后-->
+            <div class="clearfix mt13 main-wrapper">
+                <p class="logo fl mr25"><img src="Public/comp/images/logo.png"></p>
+                <h1 class="fl"><a href="http://mall.ofweek.com" target="_blank">商家后台</a></h1>
+            </div>
+            <div id="nav" class="mt13">
+                <div class="main-wrapper">
+                    <ul class="clearfix">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">我的店铺</a></li>
+                        <li><a href="#">订单管理</a></li>
+                        <li><a href="#">商品管理</a></li>
+                        <li><a href="#">物流管理</a></li>
+                        <li><a href="#">结算管理</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="content" class="white-bg">
+            <div class="main-wrapper">
+                <div class="reglogin-wrap login mt30">
+                    <form action="" method="post" class="form ml283" id="updatePwdForm">
+                        <label class="clearfix">
+                            <span class="item-l">用户名</span>
+                            <div class="item-r">
+                                <input type="text" class="txt" name="username">
+                            </div>
+                        </label>
+                        <label class="clearfix mb10">
+                            <span class="item-l">密 码</span>
+                            <div class="item-r">
+                                <input type="password" class="txt" name="pwd">
+                                <p class="find-pwd"><a href="comp_find_pwd.html">找回密码</a></p>
+                            </div>
+                        </label>
+                        <label class="clearfix">
+                            <span class="item-l">&nbsp;</span>
+                            <div class="item-r">
+                                <input type="submit" value="登录" class="redbtn" id="sub-btn">
+                            </div>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div id="footer">
+            <div class="service-mall">
+                <span class="item1">全程担保  购物无忧<i></i></span>
+                <span class="item2">认证商品  正规渠道<i></i></span>
+                <span class="item3">行业专家  品质保证<i></i></span>
+                <span class="item4">高效解答  疑问速决</span>
+            </div>
+            <p class="footer-nav mt10 lh24">
+                <a href="/aboutus.html">关于我们</a><a href="/contactus.html" rel="nofollow">联系我们</a><a href="/terms.html" rel="nofollow">用户条款</a><a href="/privacy.html" rel="nofollow">隐私条款</a><a href="/mallsupplier.html" target="_blank">招募供应商</a>
+            </p>
+            <p class="copyright lh24">
+                <a href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow" class="mr50">
+            粤ICP备06087881号-1</a> 版权所有－OFweek Mall 网站所有图片、文字未经许可不得拷贝、复制。
+            </p>
+        </div>
+        </div>
+    </body>
+
+    </html>
+</head>
+
+<body>
+</body>
+
+</html>

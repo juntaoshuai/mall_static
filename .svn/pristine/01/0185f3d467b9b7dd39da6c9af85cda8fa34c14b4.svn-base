@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="Public/base/base.css">
+    <link rel="stylesheet" href="Public/home/css/header.css">
+    <link rel="stylesheet" href="Public/home/css/index.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="container">
+            <div class="fl">
+                <span class="fl">欢迎来到 OFweek Mall</span>
+                <a href="javascript:;">登录</a><i>|</i><a href="javescript:;">注册</a>
+            </div>
+            <div class="fr">
+                <a href="javascript:;">我的MALL</a><i>|</i><a href="javescript:;">我的订单</a><i>|</i><a href="javascript:;">我的收藏</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 搜索 -->
+    <div class="container searchContent">
+        <a href="javascript:;" class="seachLogo fl">
+            <img src="Public/home/images/navLogo.png" alt="">
+        </a>
+        <div class="fl searchGroup">
+            <input type="text" placeholder="请输入商品名称">
+            <div><span></span>搜索</div>
+        </div>
+        <div class="myShopping fl">
+            <a href="javascript:;"><i></i>我的购物车 &gt;</a>
+            <span>10</span>
+        </div>
+    </div>
+    
+    <div class="container-fuild pb242">
+        <div class="navTlt">
+            <div class="container">
+                <span class="fl">全部商品分类</span>
+                <h3 class="fl">首页</h3>
+            </div>
+        </div>
+        <div class="container clearfix">
+            <div class="fl nav_left">
+                <div class="item leftList">
+                    <h4>仪器仪表<span class="fr">&gt;</span></h4>
+                    
+                    <div class="listContent">
+                        <h5>仪器</h5>
+                        <div class="item_nav">
+                            <a href="javascript:;">温/温度检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                        </div>
+                        <h5>仪表</h5>
+                        <div class="item_nav">
+                            <a href="javascript:;">温/温度检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                            <a href="javascript:;">气体检测仪</a>
+                        </div>
+                    </div>
+
+                    <ul class="clearfix">
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                    </ul>
+                </div>
+                <div class="leftList">
+                    <h4>传感器和变送器<span class="fr">&gt;</span></h4>
+                    <ul class="clearfix">
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                        <li><a href="javascript:;">水质传感器</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fl nav_center">
+                <div class="center_container">
+                    <ul>
+                        <li><a href="javascript:;"><img src="Public/home/img/c1.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="btnGroup">
+                    <span class="pre"></span>
+                    <span class="next"></span>
+                </div>
+                <div class="center_bar mt10">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="Public/home/img/n1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="Public/home/img/n2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="Public/home/img/n3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="Public/home/img/n4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="Public/home/img/n5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="br0">
+                            <a href="javascript:;">
+                                <img src="Public/home/img/n6.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fl nav_right mt10">
+                <div class="rightUp">
+                    <div class="upPart1">您好! <br>欢迎来到 OFweek Mall</div>
+                    <div class="upPart2">
+                        <p>购买入门</p>
+                        <div>
+                            <span>注册</span>
+                            <i>&gt;</i>
+                            <span class="rp2">找商品</span>
+                            <i>&gt;</i>
+                            <span class="rp2">下单购买</span>
+                        </div>
+                    </div>
+                    <div class="upPart3 clearfix mt30">
+                        <a href="javascript:;" class="active">登陆</a>
+                        <a href="javascript:;">注册</a>
+                    </div>
+                    <div class="upPart4 clearfix">
+                        <span class="sm1"></span>
+                        <span class="sm2"></span>
+                        <span class="sm3"></span>
+                        <span class="sm4"></span>
+                    </div>
+                </div>
+                <a class="rightDown mt10" href="javascript:;">
+                    <span></span>招募供应商
+                </a>
+            </div>
+        </div>      
+        <div class="container">
+            <h1 class="tlt">
+                <img src="Public/home/images/hot.png" alt="">热门商品
+            </h1>
+            <div class="productList">
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <h1 class="tlt">
+                太阳能光伏
+            </h1>
+            <div class="productList">
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <h1 class="tlt">
+                照明
+            </h1>
+            <div class="productList">
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div><img src="Public/home/img/n4.jpg" alt=""></div>
+                            <p>极光尔沃A3 桌面型 立体 DIY 3D打印机 官方标配整机</p>
+                            <h5>2000.00</h5>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <ul>
+                    <li><span class="ft1"></span>全程担保 购物无忧</li>
+                    <li><span class="ft2"></span>认证商品 正规渠道</li>
+                    <li><span class="ft3"></span>行业专家 品质保证</li>
+                    <li class="br0"><span class="ft4"></span>高效解答 疑问速决</li>
+                </ul>
+            </div>
+            <div class="footer_nav">
+                <a href="javascript:;">关于我们</a>
+                <a href="javascript:;">联系我们</a>
+                <a href="javascript:;">用户条款</a>
+                <a href="javascript:;">隐私条款</a>
+                <a href="javascript:;">招募供应商</a>
+            </div>
+            <p>粤ICP备06087881号-1　　　　版权所有－OFweek Mall 网站所有图片、文字未经许可不得拷贝、复制。</p>
+        </div>
+    </div>
+</body>
+</html>

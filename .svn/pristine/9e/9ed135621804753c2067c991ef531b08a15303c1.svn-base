@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="Public/base/base.css">
+    <link rel="stylesheet" href="Public/home/css/header.css">
+    <link rel="stylesheet" href="Public/home/css/index.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header bgfff">
+        <div class="container">
+            <div class="fl">
+                <span class="fl">欢迎来到 OFweek Mall</span>
+                <a href="javascript:;">id_358796</a> <a href="javescript:;">退出</a>
+            </div>
+            <div class="fr">
+                <a href="javascript:;">我的MALL</a><i>|</i><a href="javescript:;">我的订单</a><i>|</i><a href="javascript:;">我的收藏</a>
+            </div>
+        </div>
+    </div>
+    <!-- 搜索 -->  
+    <div class="mall-search"> 
+        <div class="container searchContent">
+            <a href="javascript:;" class="seachLogo fl">
+                <img src="Public/home/images/navLogo.png" alt="">
+            </a>
+            <div class="fl mall-search-tlt">
+                <a href="javascript:;">首页</a>
+                <a href="javascript:;">账户设置<span></span></a>
+            </div>
+            <div class="myShopping fr">
+                <a href="javascript:;"><i></i>我的购物车 &gt;</a>
+                <span>10</span>
+            </div>
+            <div class="fr searchGroup">
+                <input type="text" placeholder="请输入商品名称">
+                <div><span></span>搜索</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pb242">
+        <div class="mall-nav">
+            <a href="javascript:;">首页</a>
+            <i>&gt;</i>
+            <span class="">“OFweek mall”</span>
+        </div>
+
+        <div class="mall-content">
+            <div class="mall-left">
+                <div class="mall-navList">
+                    <div class="user-icon">
+                        <a href="javascript:;">
+                            <img src="Public/home/img/userIcon.png" alt="">
+                        </a>
+                        <span>用户名:张三</span>
+                    </div>
+                    <div class="mall-qualification mt10">
+                        <a href="javascript:;">
+                            <span class="mall-icon email-icon fl"></span>认证邮箱
+                        </a>
+                        <a href="javascript:;">
+                            <span class="mall-icon phone-icon"></span>手机未绑定
+                        </a>
+                    </div>
+
+                    <div class="mall-left-item">
+                        <div class="nav-item">
+                            <span class="mall-icon shop-icon"></span>
+                            <a href="javascript:;">我的购物车</a>
+                        </div>
+                        <div class="nav-item">
+                            <span class="mall-icon order-icon"></span>
+                            <a href="javascript:;">我的订单</a>
+                            <div class="li-items">
+                                <ul>
+                                    <li><a href="javascript:;">待议价</a></li>
+                                    <li><a href="javascript:;">待付款</a></li>
+                                    <li><a href="javascript:;">待发货</a></li>
+                                    <li><a href="javascript:;">待收货</a></li>
+                                    <li><a href="javascript:;">待评价</a></li>
+                                    <li><a href="javascript:;">退款中</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="nav-item active">
+                            <span class="mall-icon collect-icon"></span>
+                            <a href="javascript:;">我的收藏</a>
+                        </div>
+                        <div class="nav-item">
+                            <span class="mall-icon set-icon"></span>
+                            <a href="javascript:;">账户设置</a>
+                            <div class="li-items">
+                                <ul>
+                                    <li><a href="javascript:;">账户安全</a></li>
+                                    <li><a href="javascript:;">收货地址</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="nav-item">
+                            <span class="mall-icon eval-icon"></span>
+                            <a href="javascript:;">我的评价</a>
+                        </div>
+                        <div class="nav-item">
+                            <span class="mall-icon write-icon"></span>
+                            <a href="javascript:;">投诉建议</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customer-service">
+                    <h2>联系客服</h2>
+                    <div class="service-footer">
+                        <div class="service-dia">
+                            <a href="javascript:;">
+                                <span class="mall-icon"></span>在线客服
+                            </a>
+                        </div>
+                        <p class="mt25">服务时间</p>
+                        <p>周一至周五 9：00~18：00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mall-right">
+                <!-- 申请退货退款 -->
+                <h2 class="orderTlt">申请退货退款</h2>
+                <div class="mallright-list mt20">
+                    <table width="100%" align="center" class="sendTui">
+                        <tr>
+                            <th width="270">订单详情</th>
+                            <th width="100"></th>
+                            <th width="132">总计</th>
+                            <th width="218">时间</th>
+                            <th>包装清单</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="fl mall-product-icon" href="javascript:;">
+                                    <img src="Public/home/img/item.png" alt="">
+                                </a>
+                                <div class="fl mall-product-content">
+                                    <a href="javascript:;">商品名称商品信息手持水下摄像机</a>
+                                    <label for="">[交易快照]</label>
+                                </div>
+                            </td>
+                            <td>
+                                x1
+                            </td>
+                            <td>
+                               <span class="mall-prize-show">500.00</span>
+                            </td>
+                            <td>
+                                2015-12-15
+                            </td>
+                            <td>
+                                说明书 x 1 保修卡 x 1
+                            </td>
+                        </tr>  
+                    </table>
+
+                    <!-- 申请退款 -->
+                    <div class="tuiContent">
+                        <dl class="mall-mold">
+                            <dt><sub>*</sub>服务类型：</dt>
+                            <dd>
+                                <input class="active" type="button" value="仅退款">
+                                <input type="button" value="退货/退款">
+                            </dd>
+                        </dl>
+                        <dl class="mall-why">
+                            <dt><sub>*</sub>退换货原因：</dt>
+                            <dd>
+                                <select name="" id="">
+                                    <option value="0">请选择退货退款的原因</option>
+                                </select>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>提交数量：</dt>
+                            <dd>
+<!--                                 <div class="add-group">
+                                    <span class="ds">+</span>
+                                    <input type="text" value="1">
+                                    <span class="ps">-</span>
+                                </div>     -->        
+                                2                  
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="l2">退款金额：</dt>
+                            <dd>
+                                <span class="mall-prize-show">500.00</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>问题描述：</dt>
+                            <dd>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="10-500字"></textarea>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="lh26">图片信息：</dt>
+                            <dd class="mall-upload">
+                                <input type="file">
+                                <p class="mt20">最多可上传3张图片，每张图片大小不超过5M，支持bmp，gif，jpg，png，jpeg格式文件</p>
+                                <div class="mall-group-btn mt20">
+                                    <input class="sb" type="submit" value="申请提交">
+                                    <input class="bt" type="button" value="取消">
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <ul>
+                    <li><span class="ft1"></span>全程担保 购物无忧</li>
+                    <li><span class="ft2"></span>认证商品 正规渠道</li>
+                    <li><span class="ft3"></span>行业专家 品质保证</li>
+                    <li class="br0"><span class="ft4"></span>高效解答 疑问速决</li>
+                </ul>
+            </div>
+            <div class="footer_nav">
+                <a href="javascript:;">关于我们</a>
+                <a href="javascript:;">联系我们</a>
+                <a href="javascript:;">用户条款</a>
+                <a href="javascript:;">隐私条款</a>
+                <a href="javascript:;">招募供应商</a>
+            </div>
+            <p>粤ICP备06087881号-1　　　　版权所有－OFweek Mall 网站所有图片、文字未经许可不得拷贝、复制。</p>
+        </div>
+    </div>
+    <script src="Public/base/jquery-1.8.2.min.js"></script>
+    <script>
+        $(function(){
+            //仅退款和退货退款切换
+            $(".mall-mold input").click(function(){
+                $(".mall-mold .active").removeClass('active')
+                $(this).addClass('active')
+            })
+
+            //添加提交数量
+            // $(".add-group .ds").click(function(){
+            //     $(".add-group input").val(parseInt($(".add-group input").val())+1);
+            // })
+
+            //减少提交数量
+            // $(".add-group .ps").click(function(){
+            //     if($(".add-group input").val() == 0)
+            //         return
+            //     $(".add-group input").val(parseInt($(".add-group input").val())-1);
+            // })
+        })
+    </script>
+</body>
+</html>

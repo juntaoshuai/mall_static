@@ -1,0 +1,903 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜索结果</title>
+    <link rel="stylesheet" href="Public/base/base.css">
+    <link rel="stylesheet" href="Public/home/css/header.css">
+    <link rel="stylesheet" href="Public/home/css/index.css">
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="fl">
+				<span class="fl">欢迎来到 OFweek Mall</span>
+				<a href="javascript:;">登录</a><i>|</i><a href="javescript:;">注册</a>
+			</div>
+			<div class="fr">
+				<a href="javascript:;">我的MALL</a><i>|</i><a href="javescript:;">我的订单</a><i>|</i><a href="javascript:;">我的收藏</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 搜索 -->
+	<div class="container searchContent">
+		<a href="javascript:;" class="seachLogo fl">
+			<img src="Public/home/images/navLogo.png" alt="">
+		</a>
+		<div class="fl searchGroup">
+			<input type="text" placeholder="请输入商品名称">
+			<div><span></span>搜索</div>
+		</div>
+		<div class="myShopping fl">
+			<a href="javascript:;"><i></i>我的购物车 &gt;</a>
+			<span>10</span>
+		</div>
+	</div>
+	
+	<div class="container-fuild pb242">
+		<div class="nav-tlt-content">
+			<div class="container">
+				<div class="nav-list-content">
+					<h2>全部商品分类<i class="mall-icon fr"></i></h2>		
+	                <div class="all-list-content">
+	                	<div class="all-items">
+		                    <h4>仪器仪表<span class="fr">&gt;</span></h4>
+		                    <ul class="clearfix">
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                    </ul>
+		                    <div class="bdWhite"></div>
+	                    </div>
+	                	<div class="all-items mt10">
+		                    <h4>仪器仪表<span class="fr">&gt;</span></h4>
+		                    <ul class="clearfix">
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                    </ul>
+	                    </div>
+	                </div>
+
+	                <div class="all-right-content">
+	                    <div class="all-r-item">
+	                        <h5>仪器</h5>
+	                        <div class="item_nav">
+	                            <a href="javascript:;">温/温度检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                        </div>
+	                        <h5>仪表</h5>
+	                        <div class="item_nav">
+	                            <a href="javascript:;">温/温度检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                        </div>
+	                    </div>	        
+	                    <div class="all-r-item">
+	                        <h5>仪器</h5>
+	                        <div class="item_nav">
+	                            <a href="javascript:;">温/温度检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪22</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                        </div>
+	                        <h5>仪表</h5>
+	                        <div class="item_nav">
+	                            <a href="javascript:;">温/温度检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                        </div>
+	                    </div>	    	
+	                </div>
+				</div>
+				<h1>首页</h1>
+			</div>
+		</div>
+		<div class="container clearfix">
+			<div class="mall-nav">
+				<a href="javascript:;">首页</a>
+				<i>&gt;</i>
+				<span class="">“打印机”</span>
+			</div>
+			<div class="default-nav">
+				<ul>
+					<li>
+						<span>相关搜索：</span>
+						<div>
+							<a href="jvascript:;">打印机1</a>
+							<a href="javasript:;">打印机2</a>
+							<a href="javasript:;">打印机3</a>
+							<a href="javasript:;">打印机4</a>
+						</div>
+					</li>
+					<li class="mt10">
+						<span>品牌：</span>
+						<div>
+							<a href="jvascript:;">品牌1</a>
+							<a href="javasript:;">品牌2</a>
+							<a href="javasript:;">品牌3</a>
+							<a href="javasript:;">品牌4</a>
+							<a href="jvascript:;">品牌1</a>
+							<a href="javasript:;">品牌2</a>
+							<a href="javasript:;">品牌3</a>
+							<a href="javasript:;">品牌4</a>
+							<a href="jvascript:;">品牌1</a>
+							<a href="javasript:;">品牌2</a>
+							<a href="javasript:;">品牌3</a>
+							<a href="javasript:;">品牌4</a>
+							<a href="jvascript:;">品牌1</a>
+							<a href="javasript:;">品牌2</a>
+							<a href="javasript:;">品牌3</a>
+							<a href="javasript:;">品牌4</a>
+							<a href="jvascript:;">品牌1</a>
+							<a href="javasript:;">品牌2</a>
+							<a href="javasript:;">品牌3</a>
+							<a href="javasript:;">品牌4</a>
+							<a href="jvascript:;">品牌1</a>
+							<a href="javasript:;">品牌2</a>
+							<a href="javasript:;">品牌3</a>
+							<a href="javasript:;">品牌4</a>
+							<a href="jvascript:;">品牌1</a>
+							<a href="javasript:;">品牌2</a>
+							<a href="javasript:;">品牌3</a>
+							<a href="javasript:;">品牌4</a>
+							<a href="jvascript:;">品牌1</a>
+							<a href="javasript:;">品牌2</a>
+							<a href="javasript:;">品牌3</a>
+							<a href="javasript:;">品牌4</a>
+						</div>
+					</li>
+					<li>
+						<span>价格：</span>
+						<div class="fl">
+							<a href="javascript:;">0-100</a>
+							<a href="javascript:;">100-500</a>
+							<a href="javascript:;">500-1000</a>
+							<a href="javascript:;">1000-3000</a>
+							<a href="javascript:;">3000-5000</a>
+							<a href="javascript:;">5000以上</a>
+						</div>
+						<div class="fl">
+							<input type="text">
+							-
+							<input type="text">
+							<button value="确定">确定</button>
+						</div>
+					</li>
+					<li>
+						<span>类型：</span>
+						<div>
+							<a href="javascript:;">针式</a><a href="javascript:;">wifi</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>  
+		<div class="container clearfix mt10">
+			<div class="default-left fl">
+				<div class="product-left">
+					<h4>推广商品</h4>
+					<div class="left-list">
+						<a class="extend-icon" href="javascript:;">
+							<img src="Public/home/img/c1.jpg" alt="">
+						</a>
+						<a class="left-product-tlt" href="jvascript:;">商品标题：手持潜水运动相机</a>
+						<p class="mall-prize-show">200.00</p>
+					</div>
+					<div class="left-list">
+						<a class="extend-icon" href="javascript:;">
+							<img src="Public/home/img/n1.jpg" alt="">
+						</a>
+						<a class="left-product-tlt" href="jvascript:;">商品标题：手持潜水运动相机</a>
+						<p class="mall-prize-show">200.00</p>
+					</div>
+					<div class="left-list">
+						<a class="extend-icon" href="javascript:;">
+							<img src="Public/home/img/n2.jpg" alt="">
+						</a>
+						<a class="left-product-tlt" href="jvascript:;">商品标题：手持潜水运动相机</a>
+						<p class="mall-prize-show">200.00</p>
+					</div>						
+				</div>
+			</div>
+			<div class="default-right fr">
+				<div class="default-right-tlt">
+					<div class="fl">
+						<a class="first active" href="javascript:;">默认</a>
+						<a href="javascript:;">销量</a>
+						<a href="javascript:;">价格</a>
+					</div>
+					<div class="fr">
+						<span>&lt;<i>1</i>/<em>10</em>&gt;</span>
+						<div class="fr default-lr">
+							<a href="jvascript:;">&lt;</a>
+							<a href="javascript:;">&gt;</a>
+						</div>
+					</div>
+				</div>
+				<div class="default-list clearfix mt10">
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+					<div class="d-items">											
+						<a class="items-pic" href="jvascript:;">
+							<img src="Public/home/img/default.jpg" alt="">
+						</a>
+						<div class="default-page">
+							<ul class="clearfix">
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n2.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n3.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n5.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n6.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img src="Public/home/img/n1.jpg" alt=""></a>
+								</li>
+							</ul>
+							<span class="lt">&lt;</span>
+							<span class="gt">&gt;</span>
+						</div>
+						<p>200.00</p>
+						<a class="d-items-content" href="javascript:;">艾韦仕 GOPRO HERO3/3+/4单反及小蚁运动相机</a>
+						<h6>商品品牌：GOPRO</h6>
+					</div>
+				</div>
+				<div class="mt30 default-footer">
+                    <div class="fr order-footer-right">
+                        <div class="fl page">
+                            <a class="up on" href="javascript:;">&lt; 上一页</a>
+                            <a class="active" class="active" href="javascript:;">1</a>
+                            <a href="javascript:;">2</a>
+                            <a href="javascript:;">3</a>
+                            <a href="javascript:;">4</a>
+                            <a href="javascript:;">5</a>
+                            <a href="javascript:;">...</a>
+                            <a class="down" href="javascript:;">下一页 &gt;</a>
+                        </div>
+                        <span class="order-footer-total">共100页</span>
+                        <span>到第<input type="text" value="1">页</span>
+                        <button class="fr">确定</button>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer_content">
+				<ul>
+					<li><span class="ft1"></span>全程担保 购物无忧</li>
+					<li><span class="ft2"></span>认证商品 正规渠道</li>
+					<li><span class="ft3"></span>行业专家 品质保证</li>
+					<li class="br0"><span class="ft4"></span>高效解答 疑问速决</li>
+				</ul>
+			</div>
+			<div class="footer_nav">
+				<a href="javascript:;">关于我们</a>
+				<a href="javascript:;">联系我们</a>
+				<a href="javascript:;">用户条款</a>
+				<a href="javascript:;">隐私条款</a>
+				<a href="javascript:;">招募供应商</a>
+			</div>
+			<p>粤ICP备06087881号-1　　　　版权所有－OFweek Mall 网站所有图片、文字未经许可不得拷贝、复制。</p>
+		</div>
+	</div>
+
+	<script src="Public/base/jquery-1.8.2.min.js"></script>
+	<script>
+		$(function(){
+			$(".nav-list-content").hover(function(){
+				$(this).find(".all-list-content").show();
+			},function(){
+				$(this).find(".all-list-content").hide();
+				$('.all-right-content .all-r-item').hide();
+				$('.all-right-content').hide();
+				$(".all-items .active").removeClass('active');
+			})
+
+			//小导航条展开
+			$(".all-items h4").mouseover(function(){
+				var index  = $(this).parent().index();
+				$(".all-items .active").removeClass('active');
+				$(this).addClass('active');
+				$('.all-right-content').show();
+				$('.all-right-content .all-r-item').hide();
+				$('.all-right-content .all-r-item').eq(index).show();
+			})
+		})
+	</script>
+</body>
+</html>

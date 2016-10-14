@@ -1,0 +1,53 @@
+
+body{min-height: 100%;position: relative;}
+
+.container{width: 1200px;margin-left:auto;position: relative;margin-right: auto;}
+.pb242{padding-bottom: 242px;}
+
+/*header*/
+.header{height: 30px;line-height: 30px;background: #f1f1f1;font-family: Simsun;font-size: 12px;}
+.header .fl>span{margin-right: 43px;padding-left: 25px;display: block;color: #666;background: url(../images/headerHouse.png) no-repeat left 6px;}
+.header a{color: #666;}
+.header i{font-style: normal;color: #d7d7d7;margin: 0 15px;}
+
+/*登录也头部*/
+.headerCom{height: 114px;background: #fff;}
+.headerCom a{display: block;margin-top: 15px;}
+.headerCom span{height: 100%;line-height: 114px;background: url(../images/tltLogin.png) no-repeat left center;padding-left: 16px;margin-left: 16px;font-size: 24px;color: #4f4f4f;}
+
+/*搜索*/
+.searchContent{height: 108px;display: block;}
+.seachLogo{margin: 13px 150px 0 20px;}
+.searchGroup{position: relative;width: 540px;height: 32px;border: 2px solid #b61d1d;margin-top: 46px;}
+.searchGroup>div{position: absolute;right: 0;top: 0;width: 86px;height: 32px;text-align: center;font-size: 16px;background: #bf0008;color: #fff;line-height: 32px;}
+.searchGroup>div>span{display: inline-block;*display: inline;*zoom:1;width: 16px;height: 18px;background: url(../images/search.png) no-repeat left top;vertical-align: middle;margin-right: 8px}
+.searchGroup input{font-size: 14px;line-height: 32px;width: 440px;padding-left: 10px;border: 0 none;}
+.myShopping{width: 138px;border: 1px solid #d7d7d7;height: 34px;margin:46px 0 0 106px;position: relative;text-align: center;line-height: 34px;font-family: Simsun;}
+.myShopping a{color: #666;}
+.myShopping i{display: inline-block;*display: inline;*zoom:1;width: 20px;height: 18px;background: url(../images/shopicon.png);vertical-align: middle;margin-right: 6px;}
+.myShopping span{display: block;position: absolute;right: 14px;top: -5px;background: url(../images/redBg.png);color: #fff;font-size: 12px;width: 18px;height: 14px;line-height: 14px;}
+.mall-search-tlt a span{display: inline-block;width: 14px;height: 8px;*display: inline;*zoom:1;background-image: url(../images/upDown.png);vertical-align: middle;margin-left: 8px;}
+
+/*我的mall搜索*/
+.mall-search{background: #f1f1f1;height: 110px;}
+.mall-search .myShopping{margin:36px 35px 0 10px;background: #fff;}
+.mall-search .searchGroup{width: 292px;margin-top: 36px;}
+.mall-search .searchGroup input{width: 208px;}
+.bgfff{background: #fff;}
+.mall-search .seachLogo{margin-right: 20px;}
+.mall-search-tlt>a{line-height: 110px;font-size: 20px;color: #555;margin-right: 30px;font-weight: bold;}
+
+/*footer*/
+.footer{position: absolute;bottom: 0;left: 0;width: 100%;}
+.footer_content{padding: 40px 0;height: 50px;}
+.footer_content ul li{float: left;width: 299px;text-align: center;border-right: 1px solid #d7d7d7;height: 50px;line-height: 50px;font-size: 18px;font-weight: bold;color: #212121;}
+.footer_content ul li span{display: inline-block;*display: inline;*zoom:1;width: 50px;height: 50px;background-image:url(../images/footerIcon.png);vertical-align: middle;margin-right: 12px;}
+.ft1{background-position: center top;}
+.ft2{background-position: center -50px;}
+.ft3{background-position: center -100px;}
+.ft4{background-position: center -150px;}
+.footer_content ul .br0{border-right: 0;}
+.footer_nav{text-align: center;margin-top: 20px;}
+.footer_nav a{font-size: 12px;color: #666;font-family: Simsun;padding: 0 28px;}
+.footer p{font-family: Simsun;text-align: center;color: #999;margin: 12px auto 16px auto;}
+

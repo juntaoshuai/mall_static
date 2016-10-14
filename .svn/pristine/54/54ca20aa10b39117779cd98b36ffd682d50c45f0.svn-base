@@ -1,0 +1,716 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>产品详情</title>
+	<link rel="stylesheet" href="Public/base/base.css">
+	<link rel="stylesheet" href="Public/home/css/header.css">
+	<link rel="stylesheet" href="Public/home/css/index.css">
+	<link rel="stylesheet" href="Public/home/css/layer.css">
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="fl">
+				<span class="fl">欢迎来到 OFweek Mall</span>
+				<a href="javascript:;">登录</a><i>|</i><a href="javescript:;">注册</a>
+			</div>
+			<div class="fr">
+				<a href="javascript:;">我的MALL</a><i>|</i><a href="javescript:;">我的订单</a><i>|</i><a href="javascript:;">我的收藏</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 搜索 -->
+	<div class="container searchContent">
+		<a href="javascript:;" class="seachLogo fl">
+			<img src="Public/home/images/navLogo.png" alt="">
+		</a>
+		<div class="fl searchGroup">
+			<input type="text" placeholder="请输入商品名称">
+			<div><span></span>搜索</div>
+		</div>
+		<div class="myShopping fl">
+			<a href="javascript:;"><i></i>我的购物车 &gt;</a>
+			<span>10</span>
+		</div>
+	</div>
+	
+	<div class="container-fuild pb242">
+		<div class="nav-tlt-content">
+			<div class="container">
+				<div class="nav-list-content">
+					<h2>全部商品分类<i class="mall-icon fr"></i></h2>		
+	                <div class="all-list-content">
+	                	<div class="all-items">
+		                    <h4>仪器仪表<span class="fr">&gt;</span></h4>
+		                    <ul class="clearfix">
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                    </ul>
+		                    <div class="bdWhite"></div>
+	                    </div>
+	                	<div class="all-items mt10">
+		                    <h4>仪器仪表<span class="fr">&gt;</span></h4>
+		                    <ul class="clearfix">
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                        <li><a href="javascript:;">水质传感器</a></li>
+		                    </ul>
+	                    </div>
+	                </div>
+
+	                <div class="all-right-content">
+	                    <div class="all-r-item">
+	                        <h5>仪器</h5>
+	                        <div class="item_nav">
+	                            <a href="javascript:;">温/温度检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                            <a href="javascript:;">气体检测仪1</a>
+	                        </div>
+	                        <h5>仪表</h5>
+	                        <div class="item_nav">
+	                            <a href="javascript:;">温/温度检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                        </div>
+	                    </div>	        
+	                    <div class="all-r-item">
+	                        <h5>仪器</h5>
+	                        <div class="item_nav">
+	                            <a href="javascript:;">温/温度检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪22</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                            <a href="javascript:;">气体检测仪2</a>
+	                        </div>
+	                        <h5>仪表</h5>
+	                        <div class="item_nav">
+	                            <a href="javascript:;">温/温度检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                            <a href="javascript:;">气体检测仪</a>
+	                        </div>
+	                    </div>	    	
+	                </div>
+				</div>
+				<h1>首页</h1>
+			</div>
+		</div>
+		<div class="ofweek-zoomnav">
+			<div class="container clearfix">
+				<div class="mall-nav">
+					<a href="javascript:;">电脑办公</a>
+					<i>&gt;</i>
+					<a href="javascript:;">电脑办公</a>
+					<i>&gt;</i>
+					<span>“打印机A”</span>
+				</div>
+
+				<!-- 商品购买详情 -->
+				<div class="clearfix ofweek-nav-content">
+					<div class="fl buy-detail-left">
+						<div class="ofzoom">
+							<a href="jvascript:;"><img src="Public/home/img/pic.jpg" alt=""></a>
+						</div>
+						<div class="ofzoom-list">
+							<div class="ofzoom-list-content">
+								<ul>
+									<li><img src="Public/home/img/pic.jpg" alt=""></li>
+									<li><img src="Public/home/img/n1.jpg" alt=""></li>
+									<li><img src="Public/home/img/n2.jpg" alt=""></li>
+									<li><img src="Public/home/img/n3.jpg" alt=""></li>
+									<li><img src="Public/home/img/n4.jpg" alt=""></li>
+									<li><img src="Public/home/img/n5.jpg" alt=""></li>
+								</ul>
+							</div>
+							<div class="ofzoom-control">
+								<a class="lt mall-icon" href="jvascript:;"></a>
+								<a class="gt mall-icon" href="jvascript:;"></a>
+							</div>
+						</div>
+						<div class="ofzoom-left-share">
+							商品编号:123456789
+							<div class="fr">
+								<a href="javascript:;"><i class="mall-icon ofzoom-s1"></i>分享</a>
+								<a href="javascript:;"><i class="mall-icon ofzoom-s2"></i>收藏</a>		
+							</div>
+						</div>
+					</div>
+					<div class="fl buy-detail-content">
+						<h2>铁三角（Audio-technica）ATH-CLR100is BK 入耳式线控通话耳机智能手机专用耳麦 黑色</h2>
+						<p>价格：<span>100.00</span></p>
+						<div class="dl-items">
+							<div class="dt">产　　地：</div>
+							<div class="dd">深圳</div>
+						</div>
+						<div class="dl-items">
+							<div class="dt">起  订  数：</div>
+							<div class="dd">1</div>
+						</div>
+						<div class="dl-items">
+							<div class="dt">配 送 至：</div>
+							<div class="dd clearfix">
+								<div class="fl ofweek-address">
+									<div class="text">北京内蒙古</div>
+									<span class="mall-icon"></span>
+								</div>
+								<div class="ofweek-addr">
+									4165465413164564513151321564153212
+								</div>
+								<div class="dd-notice fl">运费：<i>10.00</i><a class="mall-icon" href="javascript:;"></a>  承诺24小时内发货</div>
+							</div>
+						</div>
+						<div class="dl-items">
+							<div class="dt">包装规格：</div>
+							<div class="dd pack-content">
+								<span class="active">1件20个</span>
+								<span>1件30个</span>
+								<span>1件50个</span>
+							</div>
+						</div>
+						<div class="dl-items lh36">
+							<div class="dt">数　　量：</div>
+							<div class="dd clearfix">
+								<div class="num-edit fl">
+									<input type="text" value='1'>
+									<span class="ofweek-p1">+</span>
+									<span class="ofweek-p2">-</span>
+								</div>
+								<a class="add-cart" href="jvascript:;">加入购物车</a>
+
+								<a class="buy-btn" href="jvascript:;">立即购买</a>
+							</div>
+						</div>
+						<div class="dl-items">
+							<div class="dt">商品类型：</div>
+							<div class="dd">
+								<span>全新</span>
+							</div>
+						</div>
+						<div class="dl-items">
+							<div class="dt">质保服务：</div>
+							<div class="dd">
+								<span>2年保修服务</span>
+							</div>
+						</div>
+					</div>
+					<div class="fr buy-detail-right mt30 mr50">
+						<div class="of-r1"><span class="mall-icon"></span>工采网</div>
+						<h3>销售联系</h3>
+						<div class="of-p"><span class="mall-icon"></span>0755-83289036</div>
+						<div class="of-e"><span class="mall-icon"></span>sales@isweek.cn</div>
+						<h3>技术支持</h3>
+						<div class="of-p"><span class="mall-icon"></span>0755-83289036</div>
+						<div class="of-e"><span class="mall-icon"></span>sales@isweek.cn</div>
+					</div>
+				</div>
+			</div>  
+		</div>
+		<div class="container clearfix mt10">
+			<div class="default-left fl">
+				<div class="product-left">
+					<h4>推广商品</h4>
+					<div class="left-list">
+						<a class="extend-icon" href="javascript:;">
+							<img src="Public/home/img/c1.jpg" alt="">
+						</a>
+						<a class="left-product-tlt" href="jvascript:;">商品标题：手持潜水运动相机</a>
+						<p class="mall-prize-show">200.00</p>
+					</div>
+					<div class="left-list">
+						<a class="extend-icon" href="javascript:;">
+							<img src="Public/home/img/n1.jpg" alt="">
+						</a>
+						<a class="left-product-tlt" href="jvascript:;">商品标题：手持潜水运动相机</a>
+						<p class="mall-prize-show">200.00</p>
+					</div>
+					<div class="left-list">
+						<a class="extend-icon" href="javascript:;">
+							<img src="Public/home/img/n2.jpg" alt="">
+						</a>
+						<a class="left-product-tlt" href="jvascript:;">商品标题：手持潜水运动相机</a>
+						<p class="mall-prize-show">200.00</p>
+					</div>						
+				</div>
+			</div>
+			<div class="default-right fr">
+				<div class="ofweek-content-right">
+					<div class="Tabs">
+						<ul>
+							<li><a  class="active" href="jvascript:;">商品介绍</a></li>
+							<li><a href="jvascript:;">包装与规格</a></li>
+							<li><a href="jvascript:;">商品评价</a></li>
+						</ul>
+					</div>
+					<div class="tab-cotent">
+						<div class="tabs-item">
+							<img style="text-align:center;margin:50px " src="Public/home/img/ofweek.jpg" alt="">
+						</div>
+						<div class="tabs-item"  style="display:none">
+							
+						</div>		
+						<div class="tabs-item rated-content"  style="display:none">
+							<h5>评价详情</h5>
+							<div class="rates">
+								<div class="rate clearfix">
+									<div class="fl rate-l1">
+										<a href="javascript:;"><img src="Public/home/img/userIcon.png" alt=""></a>
+										<p>匿名</p>
+									</div>
+									<div class="fl rate-l2">
+										<div class="user-rate">这是什么垃圾产品啊，这么质量这么差。</div>
+										<div class="divide">
+											<div class="fl">评分：</div>
+											<span><i style="width:50%;"></i></span>
+										</div>
+									</div>
+									<div class="fl rate-l3">
+										<div>
+											<a href="javascript:;">
+												<img src="Public/home/img/n1.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n2.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n3.jpg" alt="">
+											</a>
+										</div>
+									</div>
+									<div class="fl rate-l4">
+										2015-12-21 15:19
+									</div>
+								</div>
+								<div class="rate clearfix">
+									<div class="fl rate-l1">
+										<a href="javascript:;"><img src="Public/home/img/userIcon.png" alt=""></a>
+										<p>匿名</p>
+									</div>
+									<div class="fl rate-l2">
+										<div class="user-rate">这是什么垃圾产品啊，这么质量这么差。</div>
+										<div class="divide">
+											<div class="fl">评分：</div>
+											<span><i style="width:10%;"></i></span>
+										</div>
+									</div>
+									<div class="fl rate-l3">
+										<div>
+											<a href="javascript:;">
+												<img src="Public/home/img/n1.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n2.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n3.jpg" alt="">
+											</a>
+										</div>
+									</div>
+									<div class="fl rate-l4">
+										2015-12-21 15:19
+									</div>
+								</div>
+								<div class="rate clearfix">
+									<div class="fl rate-l1">
+										<a href="javascript:;"><img src="Public/home/img/userIcon.png" alt=""></a>
+										<p>匿名</p>
+									</div>
+									<div class="fl rate-l2">
+										<div class="user-rate">真差劲，看你们亏本卖，算了，给你们个好评！</div>
+										<div class="divide">
+											<div class="fl">评分：</div>
+											<span><i style="width:90%;"></i></span>
+										</div>
+									</div>
+									<div class="fl rate-l3">
+										<div>
+											<a href="javascript:;">
+												<img src="Public/home/img/n1.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n2.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n3.jpg" alt="">
+											</a>
+										</div>
+									</div>
+									<div class="fl rate-l4">
+										2015-12-21 15:19
+									</div>
+								</div>
+								<div class="rate clearfix">
+									<div class="fl rate-l1">
+										<a href="javascript:;"><img src="Public/home/img/userIcon.png" alt=""></a>
+										<p>匿名</p>
+									</div>
+									<div class="fl rate-l2">
+										<div class="user-rate">质量差不说了，快点还那么慢，服务态度还那么差，差评！</div>
+										<div class="divide">
+											<div class="fl">评分：</div>
+											<span><i style="width:0%;"></i></span>
+										</div>
+									</div>
+									<div class="fl rate-l3">
+										<div>
+											<a href="javascript:;">
+												<img src="Public/home/img/n1.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n2.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n3.jpg" alt="">
+											</a>
+										</div>
+									</div>
+									<div class="fl rate-l4">
+										2015-12-21 15:19
+									</div>
+								</div>
+								<div class="rate clearfix">
+									<div class="fl rate-l1">
+										<a href="javascript:;"><img src="Public/home/img/userIcon.png" alt=""></a>
+										<p>匿名</p>
+									</div>
+									<div class="fl rate-l2">
+										<div class="user-rate">不解释，差评！</div>
+										<div class="divide">
+											<div class="fl">评分：</div>
+											<span><i style="width:10%;"></i></span>
+										</div>
+									</div>
+									<div class="fl rate-l3">
+										<div>
+											<a href="javascript:;">
+												<img src="Public/home/img/n1.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n2.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n3.jpg" alt="">
+											</a>
+										</div>
+									</div>
+									<div class="fl rate-l4">
+										2015-12-21 15:19
+									</div>
+								</div>
+								<div class="rate clearfix">
+									<div class="fl rate-l1">
+										<a href="javascript:;"><img src="Public/home/img/userIcon.png" alt=""></a>
+										<p>匿名</p>
+									</div>
+									<div class="fl rate-l2">
+										<div class="user-rate">这是什么垃圾产品啊，这么质量这么差。</div>
+										<div class="divide">
+											<div class="fl">评分：</div>
+											<span><i style="width:50%;"></i></span>
+										</div>
+									</div>
+									<div class="fl rate-l3">
+										<div>
+											<a href="javascript:;">
+												<img src="Public/home/img/n1.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n2.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n3.jpg" alt="">
+											</a>
+										</div>
+									</div>
+									<div class="fl rate-l4">
+										2015-12-21 15:19
+									</div>
+								</div>
+								<div class="rate clearfix">
+									<div class="fl rate-l1">
+										<a href="javascript:;"><img src="Public/home/img/userIcon.png" alt=""></a>
+										<p>匿名</p>
+									</div>
+									<div class="fl rate-l2">
+										<div class="user-rate">这是什么垃圾产品啊，这么质量这么差。</div>
+										<div class="divide">
+											<div class="fl">评分：</div>
+											<span><i style="width:50%;"></i></span>
+										</div>
+									</div>
+									<div class="fl rate-l3">
+										<div>
+											<a href="javascript:;">
+												<img src="Public/home/img/n1.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n2.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n3.jpg" alt="">
+											</a>
+										</div>
+									</div>
+									<div class="fl rate-l4">
+										2015-12-21 15:19
+									</div>
+								</div>
+								<div class="rate clearfix">
+									<div class="fl rate-l1">
+										<a href="javascript:;"><img src="Public/home/img/userIcon.png" alt=""></a>
+										<p>匿名</p>
+									</div>
+									<div class="fl rate-l2">
+										<div class="user-rate">这是什么垃圾产品啊，这么质量这么差。</div>
+										<div class="divide">
+											<div class="fl">评分：</div>
+											<span><i style="width:50%;"></i></span>
+										</div>
+									</div>
+									<div class="fl rate-l3">
+										<div>
+											<a href="javascript:;">
+												<img src="Public/home/img/n1.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n2.jpg" alt="">
+											</a>
+											<a href="javascript:;">
+												<img src="Public/home/img/n3.jpg" alt="">
+											</a>
+										</div>
+									</div>
+									<div class="fl rate-l4">
+										2015-12-21 15:19
+									</div>
+								</div>
+							</div>
+							<div class="mt30 default-footer">
+			                    <div class="fr order-footer-right">
+			                        <div class="fl page">
+			                            <a class="up on" href="javascript:;">&lt; 上一页</a>
+			                            <a class="active" class="active" href="javascript:;">1</a>
+			                            <a href="javascript:;">2</a>
+			                            <a href="javascript:;">3</a>
+			                            <a href="javascript:;">4</a>
+			                            <a href="javascript:;">5</a>
+			                            <a href="javascript:;">...</a>
+			                            <a class="down" href="javascript:;">下一页 &gt;</a>
+			                        </div>
+			                        <span class="order-footer-total">共100页</span>
+			                        <span>到第<input type="text" value="1">页</span>
+			                        <button class="fr">确定</button>
+			                    </div>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</div>
+			<!-- default-right结束 -->
+		</div>
+		<!-- container结束 -->
+	</div>
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer_content">
+				<ul>
+					<li><span class="ft1"></span>全程担保 购物无忧</li>
+					<li><span class="ft2"></span>认证商品 正规渠道</li>
+					<li><span class="ft3"></span>行业专家 品质保证</li>
+					<li class="br0"><span class="ft4"></span>高效解答 疑问速决</li>
+				</ul>
+			</div>
+			<div class="footer_nav">
+				<a href="javascript:;">关于我们</a>
+				<a href="javascript:;">联系我们</a>
+				<a href="javascript:;">用户条款</a>
+				<a href="javascript:;">隐私条款</a>
+				<a href="javascript:;">招募供应商</a>
+			</div>
+			<p>粤ICP备06087881号-1　　　　版权所有－OFweek Mall 网站所有图片、文字未经许可不得拷贝、复制。</p>
+		</div>
+	</div>
+	
+	<!-- 加入购物车成功提示 -->
+	<div class="cartOk">
+		<h2><span class="mall-icon"></span>您已经成功添加该商品到购物车</h2>
+		<div class="cartok-tool">
+			<a href="javascript:;" class="cart-a1">去购物车结算</a>
+			<a href="javascript:;" class="cart-a2">继续购物</a>
+		</div>
+		<h5>为您推荐</h5>
+		<div class="cart-no-content">
+			<ul class="clearfix">
+				<li>
+					<a href="javascript:;">
+						<img src="Public/home/img/item.png" alt="">
+					</a>
+					<span><i>510</i></span>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="Public/home/img/item.png" alt="">
+					</a>
+					<span><i>510</i></span>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="Public/home/img/item.png" alt="">
+					</a>
+					<span><i>510</i></span>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="Public/home/img/item.png" alt="">
+					</a>
+					<span><i>510</i></span>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- 未登录弹窗 -->
+	<div class="nologin">
+		<div class="nl-content">
+            <p class="loginError mt10">账号名与密码不相配，您还有四次登录机会</p>
+            <div class="loginGroup mt12">
+                <span></span>
+                <input type="text" placeholder="邮箱/手机/OFweek会员号">
+            </div>
+            <div class="loginGroup mt20">
+                <span class="look"></span>
+                <input type="text" placeholder="密码">
+            </div>
+            <div class="findPassWord">
+            	<div class="fl">
+            		<input type="checkbox" id="autoLogin">
+            		<label for="autoLogin">自动登录</label>
+            	</div>
+            	<a href="javascript:;">忘记密码？</a>
+            </div>
+            <input class="loginSubmit" type="button" value="登 录">
+            <div class="loginRes"><a href="javascript:;">立即注册&gt;&gt;</a></div>
+            <div>
+            	<p>使用合作网站登录</p>
+            	<div class="login-style clearfix mt10">
+            		<a href="javacript:;" class="sina"></a>
+            		<a href="javacript:;" class="webchat"></a>
+            		<a href="javacript:;" class="qq"></a>
+            	</div>
+            </div>
+        </div>
+	</div>
+
+	<script src="Public/base/jquery-1.8.2.min.js"></script>
+	<script src="Public/base/layer.js"></script>
+	<script>
+		$(function(){
+			// 导航条展开
+			$(".nav-list-content").hover(function(){
+				$(this).find(".all-list-content").show();
+			},function(){
+				$(this).find(".all-list-content").hide();
+				$('.all-right-content .all-r-item').hide();
+				$('.all-right-content').hide();
+				$(".all-items .active").removeClass('active');
+			})
+
+			//小导航条展开
+			$(".all-items h4").mouseover(function(){
+				var index  = $(this).parent().index();
+				$(".all-items .active").removeClass('active');
+				$(this).addClass('active');
+				$('.all-right-content').show();
+				$('.all-right-content .all-r-item').hide();
+				$('.all-right-content .all-r-item').eq(index).show();
+			})
+
+			// tab切换
+			$(".Tabs a").click(function(){
+				var index  = $(this).parent("li").index();
+				$('.Tabs .active').removeClass('active');
+				$(this).addClass('active');
+				$('.tab-cotent .tabs-item').hide().eq(index).show();
+			});
+
+			// 加入购物车
+			$('.add-cart').on('click',function(){
+				layer.open({
+					type: 1,
+					title:['提示','background-color:#db3944;color:#fff;font-size:18px;'],
+					skin: 'layui-layer-rim', //加上边框
+					area: ['450px', '330px'], //宽高
+					content: $('.cartOk'),
+					shadeClose:true
+				})
+			});
+
+			//未登录弹窗
+			layer.open({
+					type: 1,
+					title:['您尚未登录','background-color:#db3944;color:#fff;font-size:18px;'],
+					skin: 'layui-layer-rim', //加上边框
+					area: ['450px', '380px'], //宽高
+					content: $('.nologin'),
+					shadeClose:true				
+			})
+		})
+	</script>
+</body>
+</html>

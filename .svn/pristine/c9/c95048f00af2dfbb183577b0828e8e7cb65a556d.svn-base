@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="Public/base/base.css">
+    <link rel="stylesheet" href="Public/home/css/header.css">
+    <link rel="stylesheet" href="Public/home/css/index.css">
+</head>
+<body>
+    <div class="headerCom container">
+        <a href="javascript:;" class="fl">
+            <img src="Public/home/images/navLogo.png" alt="">
+        </a>
+        <span class="fl">找回密码</span>
+    </div>
+
+    <div class="container_reg pb242">
+        <div class="container">
+            <h5 class="resgisterTlt aRed"><a href="javascript:;">登录</a> <a href="javascript:;">注册</a></h5>
+            <div class="progressBar">
+                <span class="pg70"></span>
+            </div>
+            <div class="resgisterContent">
+                <dl>
+                    <dt>
+                        新密码
+                    </dt>
+                    <dd>
+                        <div class="clearfix">
+                            <div class='fl'>
+                                <input type="text">
+                            </div>
+                            <div class="fr">
+                                <p class="bgGray lh20">密码为6-20个字符，可由英文大小写，数字及符号组成，试用至少两种字符</p>
+                            </div>
+                        </div>
+                        <span class="userIcon look"></span>
+                        <p class="regRrror">密码长度6-20个字符，至少使用两种字符，请重新输入</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        确认密码
+                    </dt>
+                    <dd>
+                        <div class="clearfix">
+                            <div class='fl'>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <span class="userIcon look"></span>
+                        <p class="regRrror">两次输入密码不一致，请重新输入</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt></dt>
+                    <dd>
+                        <a class="submitBtn" href="javascript:;">提 交</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <ul>
+                    <li><span class="ft1"></span>全程担保 购物无忧</li>
+                    <li><span class="ft2"></span>认证商品 正规渠道</li>
+                    <li><span class="ft3"></span>行业专家 品质保证</li>
+                    <li class="br0"><span class="ft4"></span>高效解答 疑问速决</li>
+                </ul>
+            </div>
+            <div class="footer_nav">
+                <a href="javascript:;">关于我们</a>
+                <a href="javascript:;">联系我们</a>
+                <a href="javascript:;">用户条款</a>
+                <a href="javascript:;">隐私条款</a>
+                <a href="javascript:;">招募供应商</a>
+            </div>
+            <p>粤ICP备06087881号-1　　　　版权所有－OFweek Mall 网站所有图片、文字未经许可不得拷贝、复制。</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="Public/base/base.css">
+    <link rel="stylesheet" href="Public/home/css/header.css">
+    <link rel="stylesheet" href="Public/home/css/index.css">
+</head>
+<body>
+    <div class="headerCom container">
+        <a href="javascript:;" class="fl">
+            <img src="Public/home/images/navLogo.png" alt="">
+        </a>
+        <span class="fl">找回密码</span>
+    </div>
+
+    <div class="container_reg pb242">
+        <div class="container">
+            <h5 class="resgisterTlt aRed"><a href="javascript:;">登录</a> <a href="javascript:;">注册</a></h5>
+            <div class="progressBar">
+                <span></span>
+            </div>
+            <div class="registerOk">
+                <div class="clearfix">
+                    <span class="fl"></span>
+                    <div class="fl ml20">
+                        <h2>密码重置成功</h2>
+                        <p>您现在可以去：<a class="aGoback" href="javascript:;">返回登录页</a><a class="aGOindex" href="javascript:;">回到OFweek Mall首页</a></p>
+                    </div>
+                </div>
+                <div class="goBackIndex"><a href="javascript:;">返回登录页</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <ul>
+                    <li><span class="ft1"></span>全程担保 购物无忧</li>
+                    <li><span class="ft2"></span>认证商品 正规渠道</li>
+                    <li><span class="ft3"></span>行业专家 品质保证</li>
+                    <li class="br0"><span class="ft4"></span>高效解答 疑问速决</li>
+                </ul>
+            </div>
+            <div class="footer_nav">
+                <a href="javascript:;">关于我们</a>
+                <a href="javascript:;">联系我们</a>
+                <a href="javascript:;">用户条款</a>
+                <a href="javascript:;">隐私条款</a>
+                <a href="javascript:;">招募供应商</a>
+            </div>
+            <p>粤ICP备06087881号-1　　　　版权所有－OFweek Mall 网站所有图片、文字未经许可不得拷贝、复制。</p>
+        </div>
+    </div>
+</body>
+</html>
