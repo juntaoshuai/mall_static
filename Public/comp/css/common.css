@@ -31,7 +31,8 @@ i {
 .c70{
     color:#707070;
 }
-
+.c005eae{color:#005eae;}
+.red{color: #bf0008;}
 .white-bg {
     background: #fff;
 }
@@ -39,6 +40,7 @@ i {
 .grey-bg {
     background: #f3f3f3;
 }
+.mt2{margin-top: 2px;}
 .mr8{margin-right: 8px;}
 .mr24{margin-right:24px;}
 .mt13 {

@@ -108,7 +108,7 @@
     padding-left: 19px;
 }
 
-.icon-messages {
+.orderlist .profile .user i {
     font-size: 20px;
     color: #005eae;
 }
@@ -360,7 +360,7 @@
 .add-product-box .goods-category{
     padding-bottom: 30px;
 }
-.add-product-box .form .sec-title,.sec-title{
+.add-product-box .form .sec-title{
 	font-family: simsun;
 	font-size:12px;
 	line-height: 12px;
@@ -529,119 +529,3 @@ border-bottom: 1px solid #fff;
 .order-progress li.active span{background-position: 0 0;}
 .order-progress li.active  .bar{background: #ff4400;}
 .order-progress li p{font-size: 12px;color:#313131;line-height: 16px;width: 70px;text-align: center;margin-left: -16px;margin-top: 13px;}
-
-.order-status-box{background: #fff;border:1px solid #dbdada;border-top-color: #bf0008;margin-top: 54px;padding:0 49px;margin-bottom: 66px;}
-.order-status-box .s-hd{font-size:12px;color:#bf0008;font-weight: bold;text-align: center;line-height: 54px;}
-
-.send-goods-form{border-bottom:1px solid #dbdada;padding-bottom: 47px;}
-.send-goods-form p{line-height: 30px;}
-.send-goods-form .logistics{padding-left: 21px;}
-.send-goods-form .logistics .logistics-company{line-height: 32px;}
-.send-goods-form .logistics .pulldown-box{line-height: 21px;height: 21px;margin-left: 8px;}
-.send-goods-form .txt{height: 21px;line-height: 21px\9;margin-left: 8px;text-indent: 5px;}
-.send-goods-form p label input,.send-goods-form p label span{display: inline-block;vertical-align:middle;}
-.send-goods-form p label input{margin-right: 8px;}
-.order-status-box .confirm-btn{ 
-    width:70px;
-    height:25px;
-    background-color: #e3010a;
-    font: bold 12px/25px simsun;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    outline: none;
-    cursor: pointer;
-    margin-left: 21px;
-    margin-top: 12px;
-}
-
-.order-info-table{border:1px solid #edecec;}
-.order-info-table td{color:#707070;border-right:1px solid #edecec;text-align:center;padding: 15px 0 11px;}
-.order-info-table .profile{font-weight: normal;}
-.order-info-table .hd td{font-weight: bold;background-color: #f4f6f9;font-size: 12px;height: 30px;border:none;}
-.order-info-item {border-bottom:1px solid #dbdada;padding-bottom: 26px;margin-top: 30px;}
-.order-info-item h3{margin-bottom: 14px;}
-.order-info-item p{color:#666;line-height: 20px;}
-.noborder{border:none !important;}
-.order-info-table .order-money{color:#bf0008;font-weight: bold;}
-.td-goods p{line-height:20px;}
-.td-goods img{margin-bottom: 11px;}
-
-/*订单详情已发货*/
-.logistics-info-box{border-top-color: #dbdada;padding-top: 26px;padding-bottom: 20px;}
-.track-list table{background: #f4f6f9;height: 30px;line-height: 30px;color:#626264;}
-.track-list table .t1{padding-left: 61px;}
-.track-list table .t2{padding-left:35px;}
-
-
-
- .track-list {
-   margin-top: 19px;
-    padding-left: 5px;
-    padding-bottom: 9px;
-    position: relative;
-}
-
-.track-list ul{
-    padding-top: 9px;
-}
- .track-list li {
-    position: relative;
-    margin: 0 0 0 10px;
-    line-height: 30px;
-    height: 30px;
-    border-left: 1px solid #dbdada;
-    font-size: 12px;
-    color: #666;
-    padding-left: 20px;
-}
-
- .track-list li .node-icon {
-    position: absolute;
-    left: -7px;
-    top: 50%;
-    width: 12px;
-    height: 12px;
-    background: url(../images/icon_node.png) 0 0 no-repeat
-}
-
- .track-list li .time, .track-list li .track-txt {
-    position: relative;
-    top: 4px;
-    display: inline-block;
-    *display: inline;
-    *zoom:1;vertical-align: middle
-}
-
- .track-list li .time {
-    margin-right: 20px;
-    
-}
-
- .track-list li.last .node-icon{
-    background-position: 0 -30px;
-}
-
- .track-list li .white-line{
-    position: absolute;
-    width:1px;
-    height: 3px;
-    background-color: #fff;
-    left: -1px;
-    top: 27px;
-}
-
- .track-list li.first .white-line{
-    height: 15px;
-    top:0;
- }
-
- .logistics-info-profile{
-    color:#000;
-    padding-left: 36px;
-    line-height: 32px;
-
- }
- .logistics-info-profile span{
-    padding-right: 56px;
- }

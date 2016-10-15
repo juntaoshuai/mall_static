@@ -94,94 +94,11 @@
                 </li>
             </ul>
             <div class="order-status-box">
-                <p class="s-hd">订单状态：待发货<span class="mr25"></span>支持方式：在线支付</p>
-                <form action="" method="post" class="send-goods-form">
-                    <h3 class="sec-title">商品发货</h3>
-                    <p class="mt10">
-                        <label>
-                            <input type="radio" name="send_way"><span>无需物流</span></label>
-                    </p>
-                    <p>
-                        <label>
-                            <input type="radio" name="send_way"><span>自己联系</span></label>
-                    </p>
-                    <div class="logistics">
-                        <div class="clearfix logistics-company">
-                            <span class="fl">物流公司</span>
-                            <div class="pulldown-box w98 fl">
-                                <div class="pulldown">
-                                    <span class="select-txt" id="ttype">订单编号</span>
-                                    <i class="iconfont">&#xe604;</i>
-                                </div>
-                                <ul class="pulldown-list">
-                                    <li data-id="1">商品类目1</li>
-                                    <li data-id="2">商品类目2</li>
-                                    <li data-id="4">商品类目3</li>
-                                    <li data-id="5">商品类目4</li>
-                                </ul>
-                                <input type="hidden" name="good_cate" value="1">
-                            </div>
-                        </div>
-                        <p class="clearfix mt2"><span class="fl">物流单号</span>
-                            <input type="text" class="txt txt98" name="model">
-                        </p>
-                    </div>
-                    <p>
-                        <input type="submit" value="确认发货" class="confirm-btn">
-                    </p>
+                <h2 class="s-hd">订单状态：待发货    支持方式：在线支付</h2>
+                <form action="" method="post">
+                    
                 </form>
-                <div class="order-info mt50">
-                    <h3 class="sec-title">订单信息</h3>
-                    <table class="order-info-table mt10" width="100%">
-                        <tr class="hd">
-                            <td width="34%">
-                                <div class="profile">
-                                    <span class="user mr35">
-                                        用户名：AAA
-                                        <i class="iconfont icon-messages">&#xe601;</i>
-                                    </span>
-                                    <span class="mr20">2015-12-15</span>
-                                    <span>订单号：123123134</span>
-                                </div>
-                            </td>
-                            <td width="11%">单价</td>
-                            <td width="11%">数量</td>
-                            <td width="11%">小计</td>
-                            <td width="11%">运费</td>
-                            <td width="11%">订单总价</td>
-                            <td width="11%">状态</td>
-                        </tr>
-                        <tr>
-                            <td class="td-goods">
-                                <img src="Public/comp/images/goods.png" width="61" height="61">
-                                <p class="">
-                                    <a href="#" target="_blank" class="c005eae">商品名称商品信息手持水下摄像机</a>
-                                </p>
-                                <p>包装规格：20打/袋</p>
-                            </td>
-                            <td class="f14">￥118.00</td>
-                            <td class="f14">1</td>
-                            <td class="f14 order-money">￥1550</td>
-                            <td class="f14">￥10.00</td>
-                            <td class="f14">￥10.00</td>
-                            <td>已发货</td>
-                        </tr>
-                    </table>
-                    <div class="order-info-item">
-                        <h3 class="sec-title">收件人信息</h3>
-                        <p>张三，中国，广东，深圳市，南山区，高新园中科大厦16F，518000，136****0235</p>
-                    </div>
-                    <div class="order-info-item">
-                        <h3 class="sec-title">付款信息</h3>
-                        <p>在线支付</p>
-                    </div>
-                    <div class="order-info-item noborder">
-                        <h3 class="sec-title">发票信息</h3>
-                        <p>发票类型：</p>
-                        <p>发票抬头：</p>
-                        <p>发票内容：****0235</p>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
