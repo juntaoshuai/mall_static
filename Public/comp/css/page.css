@@ -645,3 +645,12 @@ border-bottom: 1px solid #fff;
  .logistics-info-profile span{
     padding-right: 53px;
  }
+
+ /*订单关闭详情*/
+.order-close{background: #fffdf3;border:1px solid #f7e5a5;line-height: 25px;padding:24px 30px 23px 30px;} 
+.order-close dl dt{font-size: 14px;color:#000;line-height: 14px;}
+.order-close dl dd{color: #707070;line-height: 12px;margin-top: 11px;}
+
+.to-confirm-price{background: #fff4e8;border:1px solid #dbdada;font:14px/68px microsoft Yahei;color: #000;padding-left: 20px;}
+.to-confirm-price .price-tips{display:inline-block;background:url(../images/icon_tips.png) 0 center no-repeat;padding-left: 35px;margin-right: 18px;}
+.to-confirm-price input{vertical-align: middle;}
