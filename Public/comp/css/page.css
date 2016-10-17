@@ -568,7 +568,19 @@ border-bottom: 1px solid #fff;
 .td-goods img{margin-bottom: 11px;}
 
 /*订单详情已发货*/
-.logistics-info-box{border-top-color: #dbdada;padding-top: 26px;padding-bottom: 20px;}
+.logistics-info-box{background: #fff;border:1px solid #dbdada;margin-top: 54px;margin-bottom:66px;}
+.logistics-info-box h3{background: #f1f1f1;font-size:12px;color: #666;font-weight: bold;line-height: 34px;padding-left: 12px;border-bottom: 1px solid #dbdada;}
+ .logistics-info-profile{
+    color:#000;
+    padding-left: 12px;
+    line-height:56px;
+
+ }
+ .logistics-info-profile span{
+    padding-right: 53px;
+ }
+
+
 .track-list table{background: #f4f6f9;height: 30px;line-height: 30px;color:#626264;}
 .track-list table .t1{padding-left: 61px;}
 .track-list table .t2{padding-left:35px;}
@@ -636,15 +648,7 @@ border-bottom: 1px solid #fff;
     top:0;
  }
 
- .logistics-info-profile{
-    color:#000;
-    padding-left: 36px;
-    line-height: 32px;
 
- }
- .logistics-info-profile span{
-    padding-right: 53px;
- }
 
  /*订单关闭详情*/
 .order-close{background: #fffdf3;border:1px solid #f7e5a5;line-height: 25px;padding:24px 30px 23px 30px;} 
