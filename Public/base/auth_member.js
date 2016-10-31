@@ -32,11 +32,11 @@ function auth_member(){
 			var item = res.data;
 			
 			//我的MALL
-			var link_mall = '我的MALL对应的链接地址';
+			var link_mall = '/home.php';
 			//我的订单
-			var link_order = '我的订单对应的链接地址';
+			var link_order = '/home.php/order/index';
 			//我的收藏
-			var link_cang = '我的收藏对应的链接地址';
+			var link_cang = '/home.php/favorite/index';
 			
 			html = '';
 			html += '<div class="container">';
@@ -63,11 +63,11 @@ function auth_member(){
 			//注册
 			var link_register = 'http://mall.ofweek.com/register.html';
 			//我的MALL
-			var link_mall = '我的MALL对应的链接地址';
+			var link_mall = '/home.php';
 			//我的订单
-			var link_order = '我的订单对应的链接地址';
+			var link_order = '/home.php/order/index';
 			//我的收藏
-			var link_cang = '我的收藏对应的链接地址';
+			var link_cang = '/home.php/favorite/index';
 			
 			html = '';
 			html += '<div class="container">';

@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="Public/comp/css/common.css">
     <link rel="stylesheet" type="text/css" href="Public/comp/css/page.css">
 </head>
-
 <body>
     <div id="header">
         <!--登录前-->
@@ -52,53 +51,14 @@
             <div class="position">
                 <a href="#">商家后台</a>&gt;<a href="#">订单详情</a>&gt;<span>订单号:123456</span>
             </div>
-            <ul class="order-progress clearfix">
-                <li class="active">
-                    <span>1</span>
-                    <p>
-                        确认订单
-                        <br> 2015-12-16
-                        <br> 14:0:00
-                    </p>
-                </li>
-                <li class="active">
-                    <i class="bar"></i>
-                    <span>2</span>
-                    <p>
-                        付款成功
-                        <br> 2015-12-16
-                        <br> 14:0:00
-                    </p>
-                </li>
-                <li class="active">
-                    <i class="bar"></i>
-                    <span>3</span>
-                    <p>
-                        发货
-                        <br> 2015-12-16
-                        <br> 14:0:00
-                    </p>
-                </li>
-                <li class="active">
-                    <i class="bar"></i>
-                    <span>4</span>
-                    <p>确认收货
-                        <br> 2015-12-16
-                        <br> 14:0:00
-                    </p>
-                </li>
-                <li class="active">
-                    <i class="bar"></i>
-                    <span>5</span>
-                    <p>
-                    交易成功 <br>
-                    2015-12-16 <br>
-					14:0:00
-					</p>
-                </li>
-            </ul>
             <div class="order-status-box">
-                <p class="s-hd">订单状态：交易成功<span class="mr25"></span>支持方式：在线支付</p>
+                <p class="s-hd">订单状态：交易关闭<span class="mr25"></span>支持方式：在线支付</p>
+                <div class="order-close">
+                	<dl>
+                		<dt>当前订单状态：交易关闭</dt>
+                		<dd>取消原因：其他原因</dd>
+                	</dl>
+                </div>
                 <div class="order-info mt50">
                     <h3 class="sec-title">订单信息</h3>
                     <table class="order-info-table mt10" width="100%">
@@ -130,10 +90,10 @@
                             </td>
                             <td class="f14 noborder">￥118.00</td>
                             <td class="f14">1</td>
-                            <td class="f14 order-money">￥1550</td>
+                            <td class="f14">￥1550</td>
                             <td class="f14">￥10.00</td>
-                            <td class="f14">￥10.00</td>
-                            <td>交易成功</td>
+                            <td class="f14 order-money">￥10.00</td>
+                            <td>交易关闭</td>
                         </tr>
                         <tr>
                             <td class="td-goods noborder">
@@ -166,16 +126,6 @@
                         <p>发票内容：****0235</p>
                     </div>
                 </div>
-            </div>
-            <div class="logistics-info-box">
-               <h3>物流信息</h3>
-                <p class="logistics-info-profile">
-                    <span>配送方式：普通物流</span>
-                    <span>物流公司：韵达快递</span>
-                    <span>运单号：123456789</span>
-                    <a href="#" class="c005eae">查看物流</a>
-                </p>
-
             </div>
         </div>
     </div>

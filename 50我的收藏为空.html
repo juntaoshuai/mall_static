@@ -45,12 +45,13 @@
         <div class="mall-nav">
             <a href="javascript:;">首页</a>
             <i>&gt;</i>
-            <a href="javascript:;">我的MALL</a>
+            <a>我的mall</a>
             <i>&gt;</i>
-            <span class="">退货/退款</span>
+            <span class="">我的评价</span>
         </div>
 
         <div class="mall-content">
+            <!-- 左侧导航栏目 -->
             <div class="mall-left">
                 <div class="mall-navList">
                     <div class="user-icon">
@@ -73,7 +74,7 @@
                             <span class="mall-icon shop-icon"></span>
                             <a href="javascript:;">我的购物车</a>
                         </div>
-                        <div class="nav-item">
+                        <div class="nav-item active">
                             <span class="mall-icon order-icon"></span>
                             <a href="javascript:;">我的订单</a>
                             <div class="li-items">
@@ -87,7 +88,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="nav-item active">
+                        <div class="nav-item">
                             <span class="mall-icon collect-icon"></span>
                             <a href="javascript:;">我的收藏</a>
                         </div>
@@ -126,94 +127,27 @@
                 </div>
             </div>
             <div class="mall-right">
-                <!-- 申请退货退款 -->
-                <h2 class="orderTlt">申请退货退款</h2>
-                <div class="mallright-list mt20">
-                    <table width="100%" align="center" class="sendTui">
-                        <tr>
-                            <th width="270">商品详情</th>
-                            <th width="100"></th>
-                            <th width="132">总计</th>
-                            <th width="218">时间</th>
-                            <th>包装清单</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a class="fl mall-product-icon" href="javascript:;">
-                                    <img src="Public/home/img/item.png" alt="">
-                                </a>
-                                <div class="fl mall-product-content">
-                                    <a href="javascript:;">商品名称商品信息手持水下摄像机</a>
-                                    <p><label for="" style="">[交易快照]</label></p>
-                                    <p>包装规格：20打/袋</p>
-                                </div>
-                            </td>
-                            <td>
-                                x1
-                            </td>
-                            <td>
-                               <span class="mall-prize-show">500.00</span>
-                            </td>
-                            <td>
-                                2015-12-15
-                            </td>
-                            <td>
-                                说明书 x 1 保修卡 x 1
-                            </td>
-                        </tr>  
-                    </table>
+                <h2 class="orderTlt">我的收藏</h2>
 
-                    <!-- 申请退款 -->
-                    <div class="tuiContent">
-                        <dl class="mall-mold">
-                            <dt><sub>*</sub>服务类型：</dt>
-                            <dd>
-                                <input class="active" type="button" value="仅退款">
-                                <input type="button" value="退货/退款">
-                            </dd>
-                        </dl>
-                        <dl class="mall-why">
-                            <dt><sub>*</sub>退换货原因：</dt>
-                            <dd>
-                                <select name="" id="">
-                                    <option value="0">请选择退货退款的原因</option>
-                                </select>
-                            </dd>
-                        </dl>
-                        <dl>
-                            <dt>提交数量：</dt>
-                            <dd>
-<!--                                 <div class="add-group">
-                                    <span class="ds">+</span>
-                                    <input type="text" value="1">
-                                    <span class="ps">-</span>
-                                </div>     -->        
-                                2                  
-                            </dd>
-                        </dl>
-                        <dl>
-                            <dt class="l2">退款金额：</dt>
-                            <dd>
-                                <span class="mall-prize-show">500.00</span>
-                            </dd>
-                        </dl>
-                        <dl>
-                            <dt>问题描述：</dt>
-                            <dd>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="10-500字"></textarea>
-                            </dd>
-                        </dl>
-                        <dl>
-                            <dt class="lh26">图片信息：</dt>
-                            <dd class="mall-upload">
-                                <input type="file">
-                                <p class="mt20">最多可上传3张图片，每张图片大小不超过5M，支持bmp，gif，jpg，png，jpeg格式文件</p>
-                                <div class="mall-group-btn mt20">
-                                    <input class="sb" type="submit" value="申请提交">
-                                    <input class="bt" type="button" value="取消">
-                                </div>
-                            </dd>
-                        </dl>
+                <!-- 我的收藏 -->
+                <div class="mallright-list  mt15">
+                    <div class="cellect-content">
+                        <span class="fl">分类筛选：</span>
+                        <ul class="fl">
+                            <li>全部</li>
+                            <li>失效商品</li>
+                        </ul>
+                    </div>
+                    <div class="collect-tlt">
+                        <input class="fl" type="checkbox" id="all_sellect">
+                        <label for="all_sellect">全选</label>
+                        <span class="collect_del">删除</span>
+                        <span>删除失效产品</span>
+                    </div>
+
+                    <div class="assess_null">
+                        <p>亲，你还没有收藏过得商品哦~</p>
+                        <a href="javascript:;">马上去逛逛 &gt;</a>
                     </div>
                 </div>
             </div>
@@ -241,26 +175,33 @@
             <p>粤ICP备06087881号-1　　　　版权所有－OFweek Mall 网站所有图片、文字未经许可不得拷贝、复制。</p>
         </div>
     </div>
+
+
+    <!-- 未评价弹窗 -->
+    <div class="noasess">
+        <p><span></span>亲，您还未对商品进行评分哟。</p>
+    </div>
+
     <script src="Public/base/jquery-1.8.2.min.js"></script>
     <script>
         $(function(){
-            //仅退款和退货退款切换
-            $(".mall-mold input").click(function(){
-                $(".mall-mold .active").removeClass('active')
-                $(this).addClass('active')
+            $(".collect-main ul li").hover(function(){
+                $(this).find("span.close_icon").show()
+            },function(){
+                $(this).find("span.close_icon").hide()
             })
 
-            //添加提交数量
-            // $(".add-group .ds").click(function(){
-            //     $(".add-group input").val(parseInt($(".add-group input").val())+1);
-            // })
+            $("span.close_icon").click(function(){
+                $(this).parents("li").remove()
+            })
+        })
 
-            //减少提交数量
-            // $(".add-group .ps").click(function(){
-            //     if($(".add-group input").val() == 0)
-            //         return
-            //     $(".add-group input").val(parseInt($(".add-group input").val())-1);
-            // })
+        $("#all_sellect").click(function(){
+            if($(this).is(':checked')){
+                $(".collect-main input[type='checkbox']").attr('checked','true')
+            }else{
+                $(".collect-main input[type='checkbox']").removeAttr('checked')
+            }
         })
     </script>
 </body>

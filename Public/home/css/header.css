@@ -21,7 +21,7 @@ body{min-height: 100%;position: relative;}
 .searchGroup{position: relative;width: 540px;height: 32px;border: 2px solid #b61d1d;margin-top: 46px;}
 .searchGroup>div{position: absolute;right: 0;top: 0;width: 86px;height: 32px;text-align: center;font-size: 16px;background: #bf0008;color: #fff;line-height: 32px;}
 .searchGroup>div>span{display: inline-block;*display: inline;*zoom:1;width: 16px;height: 18px;background: url(../images/search.png) no-repeat left top;vertical-align: middle;margin-right: 8px}
-.searchGroup input{font-size: 14px;line-height: 32px;width: 440px;padding-left: 10px;border: 0 none;}
+.searchGroup input{font-size: 14px;width: 440px;padding:8px 10px;border: 0 none;}
 .myShopping{width: 138px;border: 1px solid #d7d7d7;height: 34px;margin:46px 0 0 106px;position: relative;text-align: center;line-height: 34px;font-family: Simsun;}
 .myShopping a{color: #666;}
 .myShopping i{display: inline-block;*display: inline;*zoom:1;width: 20px;height: 18px;background: url(../images/shopicon.png);vertical-align: middle;margin-right: 6px;}
@@ -35,6 +35,7 @@ body{min-height: 100%;position: relative;}
 .mall-search .searchGroup input{width: 208px;}
 .bgfff{background: #fff;}
 .mall-search .seachLogo{margin-right: 20px;}
+.mall-search-tlt{position: relative;}
 .mall-search-tlt>a{line-height: 110px;font-size: 20px;color: #555;margin-right: 30px;font-weight: bold;}
 
 /*footer*/
